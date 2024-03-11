@@ -1,0 +1,18 @@
+.env
+.gitgnore
+.git
+
+# inputs and outputs directories
+
+
+ori/
+ori_red_circles/
+reconstructions/
+red_circles/
+references/
+texts/
+
+inputs/
+outputs/
+
+evaluate_results/
