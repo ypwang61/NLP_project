@@ -1,4 +1,4 @@
-#Package pre-requisites: openai, pdf2image, tqdm
+# Package pre-requisites: openai, pdf2image, tqdm
 from openai import OpenAI
 import random
 import subprocess
@@ -64,7 +64,7 @@ def write_latex(title, keypoints, details, n_keypoints, topic, index):
     themes = ["default", "Darmstadt", "Malmoe", "AnnArbor", "Dresden", "Marburg", "Antibes", "Frankfurt", "Montpellier","Bergen", "Goettingen", "PaloAlto", "Berkeley", "Hannover", "Pittsburgh", "Berlin", "Ilmenau", "Rochester", "Boadilla", "JuanLesPins", "Singapore", "CambridgeUS", "Luebeck", "Szeged", "Copenhagen", "Madrid"]
     color_themes = ["albatross", "beaver", "beetle", "crane", "default", "dolphin", "dove", "fly", "lily", "orchid", "rose", "seagull", "seahorse", "spruce", "whale", "wolverine"]
     block_width = [0.7, 0.45, 0.3]
-    with open(f"Dataset_Generation/Latex/{topic}_{index}.tex", "w+") as f:
+    with open(f"./Synthetic Dataset/Dataset_Generation/Latex/{topic}_{index}.tex", "w+") as f:
         f.write("\\documentclass[5pt]{beamer}\n")
         f.write("\\usetheme{" + random.choice(themes) + "}\n")
         f.write("\\usecolortheme{" + random.choice(color_themes) + "}\n")
@@ -87,16 +87,16 @@ def write_latex(title, keypoints, details, n_keypoints, topic, index):
 def latex_2_image(topic, index):
     subprocess.run([
         "pdflatex", "-interaction=batchmode",
-        "--output-directory=Dataset_Generation/Latex/aux_files",
-        f"Dataset_Generation/Latex/{topic}_{index}.tex"
+        "--output-directory=./Synthetic Dataset/Dataset_Generation/Latex/aux_files",
+        f"./Synthetic Dataset/Dataset_Generation/Latex/{topic}_{index}.tex"
         ])
-    os.rename(f"Dataset_Generation/Latex/aux_files/{topic}_{index}.pdf",
-              f"Dataset_Generation/pdfs/{topic}_{index}.pdf")
-    images = convert_from_path(f"Dataset_Generation/pdfs/{topic}_{index}.pdf")
-    images[0].save(f"Dataset_Generation/images/{topic}_{index}.png", "PNG")
+    os.rename(f"./Synthetic Dataset/Dataset_Generation/Latex/aux_files/{topic}_{index}.pdf",
+              f"./Synthetic Dataset/Dataset_Generation/pdfs/{topic}_{index}.pdf")
+    images = convert_from_path(f"./Synthetic Dataset/Dataset_Generation/pdfs/{topic}_{index}.pdf")
+    images[0].save(f"./Synthetic Dataset/Dataset/images/{topic}_{index}.png", "PNG")
 
 def write_keypoints(topic, index, title, keypoints):
-    with open(f"Dataset_Generation/keypoints/{topic}_{index}.txt", "w+") as f:
+    with open(f"./Synthetic Dataset/Dataset/keypoints/{topic}_{index}.txt", "w+") as f:
         f.write(topic + "\n")
         f.write(title + "\n")
         for keypoint in keypoints:
@@ -112,14 +112,16 @@ def handleRemoveReadonly(func, path, exc):
         raise
 
 if __name__ == "__main__":
-    if os.path.exists("Dataset_Generation"):
-        shutil.rmtree("Dataset_Generation", ignore_errors=False, onerror=handleRemoveReadonly)
-    os.mkdir("Dataset_Generation")
-    os.mkdir("Dataset_Generation/Latex")
-    os.mkdir("Dataset_Generation/Latex/aux_files")
-    os.mkdir("Dataset_Generation/pdfs")
-    os.mkdir("Dataset_Generation/images")
-    os.mkdir("Dataset_Generation/keypoints")
+    if os.path.exists("./Synthetic Dataset/"):
+        shutil.rmtree("./Synthetic Dataset/", ignore_errors=False, onerror=handleRemoveReadonly)
+        os.mkdir("./Synthetic Dataset/")
+    os.mkdir("./Synthetic Dataset/Dataset")
+    os.mkdir("./Synthetic Dataset/Dataset_Generation")
+    os.mkdir("./Synthetic Dataset/Dataset_Generation/Latex")
+    os.mkdir("./Synthetic Dataset/Dataset_Generation/Latex/aux_files")
+    os.mkdir("./Synthetic Dataset/Dataset_Generation/pdfs")
+    os.mkdir("./Synthetic Dataset/Dataset_Generation/images")
+    os.mkdir("./Synthetic Dataset/Dataset_Generation/keypoints")
 
     for j in tqdm(range(num_topics)):
         topic = topics[j]
