@@ -15,7 +15,7 @@ topics = topics[:num_topics]
 slides_per_topic = 5
 
 def generate_text(topic):
-    client = OpenAI(api_key='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')
+    client = OpenAI(api_key='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')
     n_keypoints = random.randint(1, 3)
     prompt = f"Your job is to generate a brief PPT presentation outline on {topic}. Your generation should contain exactly one slide, with {n_keypoints} keypoints. \
     Each key point should be concise, followed with a paragraph demonstrating the corresponding details, which should contain at most {length_constraint[n_keypoints - 1]} sentences. \
@@ -98,9 +98,9 @@ def latex_2_image(topic, index):
 def write_keypoints(topic, index, title, keypoints):
     with open(f"./Synthetic Dataset/Dataset/keypoints/{topic}_{index}.txt", "w+") as f:
         f.write(topic + "\n")
-        f.write(title + "\n")
+        f.write(title)
         for keypoint in keypoints:
-            f.write(keypoint + "\n")
+            f.write("\n" + keypoint)
 
 def handleRemoveReadonly(func, path, exc):
     '''Handle read-only files for Windows OS.'''
@@ -120,8 +120,8 @@ if __name__ == "__main__":
     os.mkdir("./Synthetic Dataset/Dataset_Generation/Latex")
     os.mkdir("./Synthetic Dataset/Dataset_Generation/Latex/aux_files")
     os.mkdir("./Synthetic Dataset/Dataset_Generation/pdfs")
-    os.mkdir("./Synthetic Dataset/Dataset_Generation/images")
-    os.mkdir("./Synthetic Dataset/Dataset_Generation/keypoints")
+    os.mkdir("./Synthetic Dataset/Dataset/images")
+    os.mkdir("./Synthetic Dataset/Dataset/keypoints")
 
     for j in tqdm(range(num_topics)):
         topic = topics[j]
