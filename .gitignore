@@ -16,3 +16,9 @@ inputs/
 outputs/
 
 evaluate_results/
+
+# ignore all the directories
+
+*/
+# __pycache__/
+
