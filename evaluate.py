@@ -1,7 +1,7 @@
 from nltk.translate.bleu_score import sentence_bleu
 from transformers import BertTokenizer, BertModel
 import torch
-
+from evaluate import load
 from functools import partial
 
 
@@ -31,25 +31,31 @@ def calculate_bleu_score(text1, text2):
     return bleu_score
 
 def calculate_semantic_similarity(text1, text2, model_name = "bert-base-uncased", device = "cpu"):
-    tokenizer = BertTokenizer.from_pretrained(model_name)
-    model = BertModel.from_pretrained(model_name).to(device)
+    # tokenizer = BertTokenizer.from_pretrained(model_name)
+    # model = BertModel.from_pretrained(model_name).to(device)
     
-    model.eval()
+    # model.eval()
     
-    inputs1 = tokenizer(text1, return_tensors="pt", padding=True, truncation=True)
-    inputs2 = tokenizer(text2, return_tensors="pt", padding=True, truncation=True)
+    # inputs1 = tokenizer(text1, return_tensors="pt", padding=True, truncation=True)
+    # inputs2 = tokenizer(text2, return_tensors="pt", padding=True, truncation=True)
     
-    inputs1 = inputs1.to(device)
-    inputs2 = inputs2.to(device)
+    # inputs1 = inputs1.to(device)
+    # inputs2 = inputs2.to(device)
     
-    with torch.no_grad():
-        outputs1 = model(**inputs1)
-        outputs2 = model(**inputs2)
+    # with torch.no_grad():
+    #     outputs1 = model(**inputs1)
+    #     outputs2 = model(**inputs2)
         
-    embeddings1 = outputs1.last_hidden_state.mean(dim=1)
-    embeddings2 = outputs2.last_hidden_state.mean(dim=1)
-    similarity = torch.cosine_similarity(embeddings1, embeddings2, dim=1).item()
+    # embeddings1 = outputs1.last_hidden_state.mean(dim=1)
+    # embeddings2 = outputs2.last_hidden_state.mean(dim=1)
+    # similarity = torch.cosine_similarity(embeddings1, embeddings2, dim=1).item()
+    # return similarity
+
+    bertscore = load("bertscore")
+    results = bertscore.compute(predictions=[text1], references=[text2], lang="en", model_type=model_name, device=device)
+    similarity = results['f1'].item()
     return similarity
+    
 
 
 

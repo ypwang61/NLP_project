@@ -258,39 +258,47 @@ if __name__ == '__main__':
         print(f"Final ellipse_info_list = {ellipse_info_list}, len(ellipse_info_list) = {len(ellipse_info_list)}")
         # create a directory for each image
         directory = os.path.join(args.output, image_name.split('.')[0])
+        
+        flag = 0
+        
         if not os.path.exists(directory):
             os.makedirs(directory)
-        
-        
-        ###### draw each ellipse and store the pictures in a directory for each image ######
-        draw_ellipses_each(image_path, ellipse_info_list, rec_texts, directory)
-        
-        ###### draw all the ellipses and store the pictures in a directory for each image to see the ocr detection results ######
-        draw_ellipses_all(image_path, ellipse_info_list, directory)
+            ###### draw each ellipse and store the pictures in a directory for each image ######
+            draw_ellipses_each(image_path, ellipse_info_list, rec_texts, directory)
+            
+            ###### draw all the ellipses and store the pictures in a directory for each image to see the ocr detection results ######
+            draw_ellipses_all(image_path, ellipse_info_list, directory)
+        else:
+            print(f' {directory} already exists, so skip this image.')
+            flag = 1
         
         
         ######### read the additional input directory and draw ellipses on them #########
         # first find the file_name that contain image_name
-        for add_image_name in os.listdir(args.add_input):
-            if image_name.split('.')[0] in add_image_name:
-                print(f' ================== begin add ellipses to {add_image_name} ===============')
-                
-                
-                add_image_path = os.path.join(args.add_input, add_image_name)
-                add_output_path = os.path.join(args.add_output, add_image_name.split('.')[0])
-                if not os.path.exists(add_output_path):
-                    os.makedirs(add_output_path)
-                
-                # print the size of the image
-                add_image = cv2.imread(add_image_path)
-                h_new, w_new, _ = add_image.shape
-                print(f' h_new = {h_new}, w_new = {w_new}')
-                
-                # resize the add_image to the same size as the image
-                add_image = cv2.resize(add_image, (w, h))
-                print(f'add_image.shape = {add_image.shape}')
-                
-                # just draw the ellipses on the add_image_path with the original ellipse_info_list
-                draw_ellipses_each(add_image_path, ellipse_info_list, rec_texts, add_output_path, store_rec_texts = False, w = w, h = h)
-                
-                draw_ellipses_all(add_image_path, ellipse_info_list, add_output_path, w = w, h = h)
+        
+        if flag == 0:
+            for add_image_name in os.listdir(args.add_input):
+                if image_name.split('.')[0] in add_image_name : # 
+                    print(f' ================== begin add ellipses to {add_image_name} ===============')
+                    
+                    
+                    add_image_path = os.path.join(args.add_input, add_image_name)
+                    add_output_path = os.path.join(args.add_output, add_image_name.split('.')[0])
+                    if not os.path.exists(add_output_path):
+                        os.makedirs(add_output_path)
+                    
+                        # print the size of the image
+                        add_image = cv2.imread(add_image_path)
+                        h_new, w_new, _ = add_image.shape
+                        print(f' h_new = {h_new}, w_new = {w_new}')
+                        
+                        # resize the add_image to the same size as the image
+                        add_image = cv2.resize(add_image, (w, h))
+                        print(f'add_image.shape = {add_image.shape}')
+                        
+                        # just draw the ellipses on the add_image_path with the original ellipse_info_list
+                        draw_ellipses_each(add_image_path, ellipse_info_list, rec_texts, add_output_path, store_rec_texts = False, w = w, h = h)
+                        
+                        draw_ellipses_all(add_image_path, ellipse_info_list, add_output_path, w = w, h = h)
+                    else:
+                        print(f' {add_output_path} already exists, so skip this image.')

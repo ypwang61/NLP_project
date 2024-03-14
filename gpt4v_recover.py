@@ -21,7 +21,10 @@ parser.add_argument('--references_dir', type=str, default='references', help='th
 parser.add_argument('--evaluate_results_dir', type=str, default='evaluate_results', help='the directory containing the evaluation results')
 parser.add_argument('--red_circle_format', type=str, default='jpg', help='format of the red circle image')
 
-parser.add_argument('--dropout_circle_idx_list', nargs='+', type=int, default=None, help='the list of red circle indices to process, if None, process all red circles in the red_circles_dir')
+# parser.add_argument('--dropout_circle_idx_list', nargs='+', type=int, default=None, help='the list of red circle indices to process, if None, process all red circles in the red_circles_dir')
+
+parser.add_argument('--dropout_pic_strength_name', nargs='+', type=str, default=None, help='the list of pic_strength_names to process, if None, process all pic_strength_names in the red_circles_dir')
+
 
 parser.add_argument('--device', type=str, default='cuda', help='the device for running the semantic similarity model')
 parser.add_argument('--debug', type=int, default=0, help='whether to run in debug mode which does not call the API and use a fixed response instead')
@@ -125,6 +128,10 @@ def main(args):
   
   final_list = []
   for pic_strength_name in pic_strength_names: # for each Figure task
+    
+    if config['dropout_pic_strength_name'] is not None and pic_strength_name not in config['dropout_pic_strength_name']:
+      continue
+    
     pic_strength_dir = os.path.join(red_circles_dir, pic_strength_name)
     circle_idxs = os.listdir(pic_strength_dir)
     config['pic_name'] = pic_strength_name.split('_')[0]
@@ -135,8 +142,8 @@ def main(args):
       circle_idx_str = circle_idx.split('.')[0]
       
       if circle_idx_str.isdigit(): # ignore the file like 0_XXX.jpg
-        if config['dropout_circle_idx_list'] is not None and int(circle_idx_str) in config['dropout_circle_idx_list']:
-          continue # if the circle_idx is in the dropout list, skip it
+        # if config['dropout_circle_idx_list'] is not None and int(circle_idx_str) in config['dropout_circle_idx_list']:
+        #   continue # if the circle_idx is in the dropout list, skip it
         
         config['circle_idx'] = int(circle_idx.split('.')[0])
         print(f'#############################################################################')
