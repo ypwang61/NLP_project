@@ -111,7 +111,7 @@ def GPT4V_process(config):
   print(f'result_list = {result_list}')
   print(f'ocr = {ocr}')
 
-  res_stats_dict = evaluate_fun(result_list, ocr, ori_ocr_text, device=config['device'])
+  res_stats_dict, _ = evaluate_fun(result_list, ocr, ori_ocr_text, device=config['device'])
   
   with open(evaluate_path, 'w') as f:
     json.dump(res_stats_dict, f, indent=2)

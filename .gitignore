@@ -19,6 +19,7 @@ evaluate_results/
 
 # ignore all the directories
 
-*/
+# */
 __pycache__/
-
+_prev/
+evaluate_results_store/
