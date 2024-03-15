@@ -20,5 +20,5 @@ evaluate_results/
 # ignore all the directories
 
 */
-# __pycache__/
+__pycache__/
 

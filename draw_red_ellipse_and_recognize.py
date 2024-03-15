@@ -278,7 +278,7 @@ if __name__ == '__main__':
         
         if flag == 0:
             for add_image_name in os.listdir(args.add_input):
-                if image_name.split('.')[0] in add_image_name : # 
+                if image_name.split('.')[0] == add_image_name : # 
                     print(f' ================== begin add ellipses to {add_image_name} ===============')
                     
                     
