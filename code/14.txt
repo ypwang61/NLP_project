@@ -1,0 +1,13 @@
+Choose outfit;
+if(Weather is cold) [Cold] {
+  Wear **coat**;
+} else [Warm] {
+  Wear *t-shirt*;
+}
+/Decide on shoes/;
+if(Event is formal) {
+  Pick **dress shoes**;
+} else {
+  Choose sneakers;
+}
+Accessorize [Complete look];

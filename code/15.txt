@@ -1,0 +1,14 @@
+start:
+(Initiate music player);
+Play song;
+if(User interrupts?) {
+    Pause song;
+    if(Skip song?) {
+        Next song;
+    }
+    else {
+        loop start;
+    }
+}
+Stop song;
+(Turn off music player);

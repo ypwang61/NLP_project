@@ -1,0 +1,23 @@
+Morning starts;
+if(Feeling unwell?) [Yes] {
+Consult doctor;
+if(Prescription given) [Yes] {
+Take medication;
+} else [No] {
+Home remedies;
+}
+} else [No] {
+Exercise;
+Eat healthy;
+}
+
+Hydrate throughout the day;
+Check health status end of day [Evening check];
+if(Feeling better?) [Yes] {
+Continue routine;
+} else [No] {
+Rest;
+Consider doctor visit tomorrow;
+}
+
+Night ends;

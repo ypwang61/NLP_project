@@ -1,0 +1,12 @@
+Start training session;
+if(Weather is good) [Yes] {
+  Outdoor run;
+} else [No] {
+  Gym workout;
+}
+Drink water;
+for(i = 0; i < 3; i++) {
+  Practice specific skill;
+}
+Cool down;
+End training session;

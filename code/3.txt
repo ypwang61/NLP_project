@@ -1,0 +1,33 @@
+// Technology: Smart Home Automation
+Check weather;
+if(Weather is cold) [Yes] {
+  Adjust thermostat [Set warmer];
+}
+else [No] {
+  Adjust thermostat [Set cooler];
+}
+// Morning routine
+Morning alarm;
+Turn on coffee machine;
+if(Time > 7:00 AM) [Late] {
+Prepare quick breakfast;
+}
+else [Early] {
+Prepare full breakfast;
+}
+
+// Leaving home
+if(Leaving home?) [Yes] {
+Turn off lights;
+Activate security system;
+}
+else [No] {
+Play music;
+}
+
+// Returning home
+if(Arriving home?) [Yes] {
+Deactivate security system;
+Turn on lights;
+Adjust thermostat [Comfortable];
+}

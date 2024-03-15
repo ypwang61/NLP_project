@@ -1,0 +1,1 @@
+Start the music player. Begin to play a song. If the user chooses to interrupt, pause the song. Check if the user wants to skip the song. If yes, play the next song, otherwise, restart the process. After finishing playing the song, stop the song and turn off the music player.

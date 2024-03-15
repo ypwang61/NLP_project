@@ -1,0 +1,19 @@
+Start;
+input /Choose a game genre/;
+match (game genre) {
+  Shooter => |Load FPS game|;
+  RPG => |Load fantasy game|;
+  Strategy => |Load tactics game|;
+  Sport => |Load football game|;
+  _ => { 
+     display *No game selected*; 
+     return;
+  }
+}
+|Play the game|;
+if(Enjoyed the game?) { 
+  |Save the game|;
+} else { 
+  return *Quit game*;
+}
+End;

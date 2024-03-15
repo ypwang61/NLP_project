@@ -1,0 +1,13 @@
+Explore local culture;
+if(Interested in history?) [Yes] {
+  Visit museum;
+  Attend historical lecture;
+} else [No] {
+  Explore local cuisine;
+  Attend cultural festival;
+}
+if(Time for crafts?) [Yes] {
+  Participate in workshop;
+}
+Enjoy traditional music;
+Reflect on experiences;

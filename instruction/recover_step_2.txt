@@ -1,0 +1,2 @@
+Now I will give you the pseudocode that describe the original image. Please refer to the pseudocode and rewrite the <reasoning for corrected text> and <corrected text> part. You should keep the same response format.
+Pseudocode:

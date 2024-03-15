@@ -1,0 +1,21 @@
+Start business plan;
+// Evaluate market
+if(Research market) [Done] {
+  Analyze competition;
+  Identify target audience;
+} else [Pending] {
+  return;
+}
+// Financial planning
+Calculate startup costs;
+Plan budget [Monthly plan];
+if(Funds sufficient) [Yes] {
+  Seek investments;
+} else [No] {
+  Reduce expenses;
+}
+// Marketing strategy
+Develop marketing plan;
+Launch marketing campaign;
+Monitor and adjust;
+End business plan;

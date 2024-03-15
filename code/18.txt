@@ -1,0 +1,12 @@
+Show starts;
+if(New episode available?) {
+    Watch episode;
+    if(Interesting plot twist?) {
+        Discuss with friends;
+    }
+    Anticipate next episode;
+} else {
+    Read reviews;
+    Re-watch favorite episode;
+}
+Show ends;

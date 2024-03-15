@@ -1,0 +1,29 @@
+Check balance;
+if(Enough funds for investment?) {
+  Choose investment type;
+  switch(Investment type) {
+    case Stocks:
+      Buy stocks;
+      break;
+    case Bonds:
+      Buy bonds;
+      break;
+    case Savings account:
+      Deposit in savings;
+      break;
+  }
+} else {
+  Save more money;
+}
+Evaluate financial goals;
+if(Meet short-term goals?) [Yes] {
+  Celebrate;
+} else [No] {
+  Adjust budget;
+}
+if(Meet long-term goals?) [Yes] {
+  Plan for retirement;
+} else [No] {
+  Consult financial advisor;
+}
+Review budget;

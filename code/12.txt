@@ -1,0 +1,14 @@
+// Starting the food preparation process
+Start;
+if(Ingredients available?) {
+<Prepare ingredients>;
+if(Time < 20 minutes) [Quick recipe] {
+Make salad;
+} else [Cooking] {
+Cook meal;
+}
+} else [Shopping needed] {
+Go shopping;
+}
+
+Serve food;

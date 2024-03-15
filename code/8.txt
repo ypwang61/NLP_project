@@ -1,0 +1,18 @@
+Visit art gallery;
+if(See painting you like?) [Yes] {
+  Take a closer look;
+  if(Want to learn more?) [Curious] {
+    Ask curator about it;
+  } else [Just admiring] {
+    Appreciate silently;
+  }
+} else [No] {
+  Move to next painting;
+}
+if(Tired?) [Yes] {
+  Sit in gallery cafe;
+  Enjoy a coffee;
+} else [No] {
+  Continue exploring;
+}
+End of visit;

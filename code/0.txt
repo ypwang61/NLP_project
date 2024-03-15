@@ -1,0 +1,27 @@
+Start education journey;
+if(Interest in Science?) [Yes] {
+  Explore **Physics**;
+  Experiment with *Chemicals*;
+} else [No] {
+  Read about *History*;
+  Draw **Maps**;
+}
+Choose a major;
+switch(Major chosen) {
+  Arts => Attend painting classes;
+  Engineering => Solve math problems;
+  Literature => Write essays;
+}
+Prepare for exams;
+while(Exams not passed) {
+  Study;
+  Take mock tests;
+}
+Graduate [Degree obtained];
+Search for job;
+if(Job in field?) [Yes] {
+  Celebrate;
+} else [No] {
+  Consider further studies;
+}
+End education journey;

@@ -1,0 +1,12 @@
+start:
+(Open a book);
+while(Pages left?) {
+  Read page;
+  if(Enjoying?) {
+    Continue reading **this book**;
+  } else {
+    Pick another book;
+    goto start;
+  }
+}
+(End of book);

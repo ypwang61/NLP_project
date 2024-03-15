@@ -1,0 +1,15 @@
+startWatching:
+if(Popcorn ready?) {
+  Pick a movie;
+  switch (Movie genre) {
+    Horror => Turn off lights;
+    Comedy => Invite friends over;
+    Animated => Grab a cozy blanket;
+  } 
+  Play movie;
+} else {
+  Go to the kitchen;
+  Make popcorn;
+  loop startWatching;
+}
+Movie ends;

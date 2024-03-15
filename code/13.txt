@@ -1,0 +1,13 @@
+Prepare for travel;
+if(Bag packed?) [Yes] {
+  Check weather [Weather checked];
+  /Flight tickets and passport ready/;
+} else [No] {
+  Pack essentials;
+}
+Choose destination;
+switch(Destination type) {
+  Beach => Pack sunscreen;
+  Mountains => Pack warm clothes;
+}
+Enjoy travel;

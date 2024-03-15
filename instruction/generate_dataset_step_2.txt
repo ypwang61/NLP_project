@@ -1,0 +1,13 @@
+Your last step is to translate the flowchart language into natural language. You should ABSOLUTELY keep the original keywords and explicitly express the flowchart structure in natural languages. Please DO NOT add any extra information.
+Example: (fl represents flowchart language, nl represents natural language)
+<fl>
+if(Homework completed?) [Yes] {
+  Praise student;
+} else [No] {
+  Encourage to complete next time;
+}
+<\fl>
+<nl>
+If the student’ homework is completed, the teacher should praise the student, otherwise, the teacher should encourage the student to complete next time.
+<\nl>
+In the example above, I try my best keep the original keywords “homework completed”, “praise student” and “encourage to complete next time” in my natural language generation. I change “homework completed” to “homework is completed“ to make sentences fluent. Do this when only necessary. Please include your generated natural language in the area between <nl> and <\nl>.

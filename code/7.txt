@@ -1,0 +1,13 @@
+Begin exploration of history;
+if(Interest in Ancient Civilizations) {
+  Read about Egypt;
+  if(Have more time) [Yes] {
+    Explore Pyramids;
+  } else [No] {
+    Watch documentary on Rome;
+  }
+} else {
+  Discover medieval Europe;
+  Visit castle;
+}
+End journey through time;

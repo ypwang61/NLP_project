@@ -1,0 +1,13 @@
+Start entertainment routine;
+if(Weather is nice) {
+  Go for a hike [Outdoor];
+} else {
+  Choose movie genre;
+  switch(Movie genre) {
+    Comedy => Watch comedy movie [Laughs];
+    Horror => Watch horror movie [Screams];
+    Other => Do a movie marathon;
+  }
+}
+Relax and enjoy;
+End of entertainment;

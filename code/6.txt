@@ -1,0 +1,16 @@
+Register to vote;
+if(Eligibility check) [Eligible] {
+  Go to polling station;
+  if(Long queue?) [Yes] {
+    Wait in line;
+  }
+  Cast vote;
+} else [Not eligible] {
+  Research voting requirements;
+}
+Watch election results;
+if(Preferred candidate wins) [Joy] {
+  Celebrate victory;
+} else [Disappointment] {
+  Reflect on results;
+}

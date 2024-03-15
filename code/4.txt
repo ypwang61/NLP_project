@@ -1,0 +1,25 @@
+Start experiment;
+// Input data
+/Collect sample data/;
+
+// Preparation
+<Prepare laboratory equipment>;
+
+// Process
+|Label samples|;
+|Measure initial conditions|;
+
+if(Sample reacts) {
+Record reaction;
+Analyze data;
+if(Results are significant) [Yes] {
+Publish findings;
+} else [No] {
+Review methodology;
+loop Start experiment [New approach];
+}
+} else {
+Store samples for further analysis;
+}
+
+(End of experiment);

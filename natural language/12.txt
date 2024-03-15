@@ -1,0 +1,1 @@
+Start the food preparation process. If ingredients are available, prepare the ingredients. Following this, if the time is less than 20 minutes, make a salad; otherwise, cook a meal. If ingredients are not available, indicating shopping is needed, go shopping. Finally, serve the food.

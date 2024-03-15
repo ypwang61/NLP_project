@@ -1,0 +1,395 @@
+You will be introduced a flowchart language. You first step to understand this language.
+Introduction
+code2flow let's you create flowcharts by writing natural language decorated with some extra syntax. See the example below.
+while(Pages left?) {
+  Read page;
+  if(Interested?) {
+    Play with examples.
+  }
+  Go to next page;
+}
+Enjoy our tool;
+// Chinese-Japanese-Korean
+  characters are also supported
+The syntax is heavily inspired by C programming language and thus you may find that pasting actual C, Java, C++ code to code2flow may sometimes give satisfying results. Note that this is purely incidental. You are advised to re-write your actual code to human readable words so that your diagrams are readable by anyone.
+Little hint, knowing editor keyboard shortcuts will make you more efficient over time.
+Navigation
+Did you know that you can zoom and pan the diagram viewer?
+•	To pan, just click and drag (or swipe).
+•	To zoom in and out, use mouse wheel (or pinch zoom).
+•	To reset view, press the arrow icon.
+Expressions
+Expressions state something that happens at given point in a flowchart. Starting and ending (terminating) expressions are automatically marked as such.
+Below example shows three consecutive actions. Each expression needs to be separated by a semicolon(;), otherwise they are joined and create a single expression. You can click on the code, edit it and see the updated flowchart.
+Engine starts;
+Engine is working;
+Engine stops;
+Note that notion of action in flowcharts is traditionally called process.
+Text formatting
+Any text, be it in expressions, comments or other type of clock can be formatted. Formatting styles below:
+•	Bold - **some text** will create some text.
+•	Italic - *some text* will create some text.
+•	Bold italic - ***some text*** will create some text.
+•	Monospace - `some text` will create some text. This is useful for embedding code-like operations in the flowchart.
+Please notice the whitespace handling in below example.
+This is **bold** beginning;
+*Why not* write something in *italic
+  *?;
+I can write code:
+`operation = overlord`;
+   Note that beginning whitespace
+    is ignored and how newlines are
+      handled;
+F *a* **n** ***c*** y
+***THE END***;
+Longer monospace fragments will stay aligned to the left.
+`initialize()
+ print_status()`;
+ `finalize()
+ destroy()`;
+Notes and comments
+You can place notes and comments that will appear above any flowchart block. You can also create code comments that will not appear in the flowchart.
+•	// this is single line comment
+•	/* this is multi-line comment */
+•	# this is invisible comment, after '#' every character is ignored
+Adjacent single line and multi line comments are joined together. Formatting of comment blocks is also not as literal like other type of blocks. Comments blocks will try to retain a sensible aspect ratio sometimes splitting long lines into shorter ones.
+// We have decided for a **silly**
+  block name
+Node1;
+/* Followed by a
+   `multi-line` comment */
+Node2;
+// that's how `multi-line` `single
+  -line`
+// comments work
+Node3;
+Node4; // same line trailing comment
+  is attached where you expect
+Comments can also appear between other language constructs and will be attached to corresponding generated blocks.
+if(How these comments work?) /*
+  comment1 */ { // comment2
+  Expression 1;
+} else // comment 3
+  Expression 2;
+for(i = 0; // initialize
+    i < 10; // condition
+    i++) { // iteration
+  sum += i; // sum
+}
+Conditionals (if)
+Decision blocks allow for splitting process into two paths, one following successful/true outcome of the statement and other unsucessful/false outcome. The labels for both "True" and "False" can be adjusted as will be shown below. Using else if one can chain several consecutive conditions and with final else all other cases can be met.
+Booting of computer.;
+// pressing is the same as very
+  short holding
+if(User is holding `F1`) {
+  Display booting menu;
+  if(User selected **Network**)
+    Boot from Network;
+  else if(User selected **CDROM**)
+    Boot from CDROM;
+  else
+    Boot from default;
+}
+else
+  Boot from hard drive;
+End of booting;
+Using braces { and } is optional if using only one expression.
+Return (return)
+Returning can be used to abruptly stop continuation after given process. Other use case is showing two separate flowcharts on one document.
+Booting of computer.;
+if(User pressed `DEL`) {
+  Show BIOS;
+  return;
+}
+Normal boot;
+As you can see "Show BIOS" is another terminating node now. This is simplified case and could be rewritten with if and else but it is necessary in more complicated cases.
+// this is first graph
+Begin;
+End;
+return;
+// this is second graph
+Begin;
+End;
+return;
+You can also combine return with an expression.
+if(User pressed `DEL`) {
+  return Show BIOS;
+}
+Normal boot;
+Multiple outcome decisions (switch/match)
+switch or match can be used to model more complex decisions where an outcome is based on more than true or false evaluation. There can be arbitrary number of outcomes.
+switch (What do you want to eat
+  today?) {
+  Vegetarian => Grab a falafel;
+  Beef => Grab beef kebab;
+  Not hungry => {
+    if (Would you like something to
+      drink?) {
+      if (Beer or wine) {
+        Pour drink;
+      } else {
+        Pour water;
+      }
+    } else {
+      Let me know whenver you
+        change your bind;
+    }
+  }
+}
+You can alternatively use the match keyword which comes directly from Rust. It's entirely to use if you want to use switch or match. It works exactly the same.
+read x from stdin;
+match x {
+    1 => print "one";
+    2 => print "two";
+    => print "unknown number";
+}
+Traditional switch conditionals (switch)
+Specify each case with the case keyword and follow it by text. Write normal code inside and usually you want to end it with break that jumps out of the switch. If not provided, you will see the two cases linked. Try removing the break from line 5 of the next example to see this behaviour.
+Example shows two cases being handled separately and two other cases being handled together.
+Take bucket;
+switch(Bucket color) {
+  case Red:
+    Take red liquid;
+    break;
+  case Blue:
+    Take blue liquid;
+    break;
+  case Yellow:
+  case Purple:
+    Leave bucket empty;
+    break; # last break is optional
+}
+End;
+Other example:
+start:
+# Starting node needs to be
+  manually marked
+# here, braces imitate an oval
+  shape
+(Initiate connection);
+Update subscription;
+switch(Update status) {
+  case Done:
+    Report success;
+    break;
+  case Connection lost:
+    loop start;
+  case Not enough balance:
+    Show error;
+    break;
+}
+End subscription;
+switch being modeled after C language may behave in peculiar way:
+switch(Weather) {
+  case Very cold:
+    Put on a hat;
+  case Chilly:
+    Put on a coat;
+  case Warm:
+    Leave home;
+    break;
+  case Raining:
+    Stay at home;
+    break;
+}
+As you can see, there is a "fall-through" behavior and without an explicit break a case will link to the next case. It is useful for more compact representation of logic.
+Goto and jump loops (goto/loop)
+Goto, loop and loop labels allow jumping from the place where loop or goto is called to the place after label declaration. Labels are declared by writing a short no-spaced English string and ending it with :. Loop is performed by providing the label name after the loop or goto keywords as shown in the next example. loop is the synonym of goto.
+Client enters;
+before_check:
+if(!Client happy?) {
+  Smile more and be nicer;
+  loop before_check;
+}
+Client leaves;
+To change the layout depending on your need you could also use a special nop command that creates a small circle as an intermediary node. Layout becomes bigger but the loop is now more apparent.
+before_check:
+nop;
+if(!Client happy?) {
+  Smile more and be nicer;
+  goto before_check;
+}
+Client leaves;
+Several loops can be used simultaneously.
+nop;
+a_label: A;
+b_label: B;
+c_label: C;
+d_label: D;
+switch(Destination) {
+  case A: loop a_label;
+  case B: loop b_label;
+  case C: loop c_label;
+  case D: loop d_label;
+}
+While and for loops (while/for/do)
+Simple looping can be achieved more easily. Consider the smiling example from previous section. It can be improved in the following way.
+  Smile more and be nicer;
+Client leaves;
+Much shorter and more readable. Note that in this version the client has to be unhappy in the first place for you to smile. Let's change it.
+Client enters;
+do {
+  Smile more and be nicer;
+} while(!Client happy?);
+Client leaves;
+In the second example the condition happens at the end of the loop which is required depending on given process.
+With the keyword break you can terminate a loop at any given point. continue keyword allows to jump to the beginning of the loop.
+while(Power is ON) {
+  if(Power fluctuating) {
+    Adjust transformer;
+    continue;
+  }
+  if(Emergency button is pressed)
+    break;
+}
+Manual Power OFF;
+There is also support for using for loops known from C language.
+for(Initial expression;Condition
+  ;Iterator) {
+  Do something;
+}
+End;
+Input, manual operation and other shapes
+Other shapes can be enforced by putting specific characters at beginning and the end of the expression.
+// invisible
+.Hello!.;
+// input
+/Friend writing cake recipe/;
+// preparation
+<Do shopping>;
+# you could reference other
+  flowcharts
+# for example
+// module
+||Use cake recipe||;
+// process - default!
+|Wait for cake|;
+// Manual operation
+\People eating cake/;
+// terminator
+(End);
+Other shapes have semantic meaning, use them according to the needs;
+Custom true/false labels and yielding values
+Every expression, condition and loop may be provided with a text that will appear by the line connections coming out of it. When used with expressions it could be understood as something yielding a result, for example:
+Go to work;
+check:
+if(Documentation ready) [Yes] {
+  Verify documentation [Report];
+  Store report;
+  return;
+}
+else [No] {
+  Do other stuff;
+  loop check [Check documentation];
+}
+Any expression can yield a value which will be drawn as a label next to a diagram edge. Just provide a yielded text in square brackets at the end of an expression;
+Freeze [Ice cubes];
+Add to drink;
+Grouping code into blocks / sections (block)
+You may want to visually separate some parts of the diagram.
+block {
+  A;
+  B;
+}
+if(A) {
+  Foo;
+} else {
+  block This is a named block {
+    Hello;
+  }
+}
+Branches, concurrency (branch/join)
+Branches could be understood in terms of creating another process that occurs in parallel to the default one. They "live" totally separately and may have separate ends. To connect the ends of the branches to the main process a join statement is called with comma separated list of branch names. Consider this example.
+Start [Crossroads c];
+branch(cross_a) [Crossroads a] {
+  while(Daylight) {
+    Green light;
+    Yellow light;
+    Red light;
+  }
+}
+branch(cross_b) [Crossroads b] {
+  while(Daylight) {
+    Green light;
+    Yellow light;
+    Red light;
+  }
+}
+while(Daylight) {
+  Green light;
+  Yellow light;
+  Red light;
+}
+join(cross_a, cross_b);
+End;
+Arbitrary amount of branches can be created provided each is given a separate name.
+Exceptions and random errors (try/catch)
+It's very easy to handle random errors that happen in any process.
+try {
+  Action 1;
+  Action 2;
+  Action 3;
+} catch(Fire happened) {
+  Evacuation procedures;
+  Wait for help;
+} catch(Robbery happened) {
+  Call police;
+  Wait for help;
+}
+You can also chart actual exception code taken from Java.
+try {
+  # exceptions can happen at any
+    point in this scope
+  Get url string;
+  Process url;
+  return `new URL(str
+    ).toExternalForm()`;
+} catch (MalformedURLException) {
+  return` null`;
+}
+Functions (call/function)
+You can define re-usable blocks of flowchart as function blocks.
+  Provide solution;
+}
+Log in to helpdesk.
+Wait for customer;
+if(Telephone call) {
+  Get PIN;
+  call Help customer;
+} else if(Internet chat) {
+  Ask safety questions;
+  call Help customer;
+  Send 'Rate your support' form;
+}
+End;
+Functions can also take arbitrary arguments.
+function CreateCar(engine, wheels)
+  {
+  Get parts;
+  Fix engine;
+  Fix wheels;
+  return Finished car;
+}
+Start;
+`sportEngine = new SportEngine`;
+`sportWheels = new SportWheels`;
+call CreateCar(sportEngine
+  ,sportWheels);
+Optional braces
+Braces are usually entirely optional. The only exceptions are short-hand while, if written without using { and }.
+if Sun is shining {
+  Put on sunglasses;
+}
+
+Now that you have been introduced to this flowchart language, your job is to generate some simple demo codes about a specific topic. There are some requirements you need to keep in your mind:
++ Your codes should be about the given topic. You can use your creativity to add any details.
++ Your codes should be easy to understand and SHOULD NOT EXCEED <b>20<\b > LINES. You used to fail to control the generation length, please remember.
++ Your codes should try to leverage multiple features mentioned in the introduction. But don’t make your structure too complex or plain sequential structure.
++ Please use as little comments in your codes as you can.
++ Please include your codes in the areas between <code> and <\code>, example:
+<code>
+Engine starts;
+Engine is working;
+Engine stops;
+<\code>
+Topic:

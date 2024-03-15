@@ -1,0 +1,1 @@
+Start the training session. If the weather is good, proceed with an outdoor run; otherwise, opt for a gym workout. Ensure to drink water. Practice a specific skill three times in a loop. Conclude with a cool-down phase. Finally, end the training session.
