@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Fusion",
+  "ocr": "Fus1on.",
+  "result_list": [
+    [
+      "Fusion",
+      " visual clue in diagram shows merging of data flows suggesting data fusion"
+    ],
+    [
+      "Data Integration",
+      " the process usually involves merging different data types"
+    ],
+    [
+      "Sensor Fusion",
+      " commonly used term in context of combining data from different sensors"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 69,
+    "top_3_reason": 53
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.43532291054725647,
+    "top_1_guess": 0.9999998807907104,
+    "top_3_guess": 0.9999998807907104,
+    "top_1_reason": 0.46124210953712463,
+    "top_3_reason": 0.46124210953712463
+  }
+}

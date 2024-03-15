@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Input Image",
+  "ocr": "Zhtang input image",
+  "result_list": [
+    [
+      "Input Image",
+      " textual similarity"
+    ],
+    [
+      "Input Image",
+      " logical element in pipeline diagrams"
+    ],
+    [
+      "Source Image",
+      " association with image processing steps"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 9,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 15,
+    "top_3_reason": 15
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6903507113456726,
+    "top_1_guess": 0.9999998807907104,
+    "top_3_guess": 0.9999998807907104,
+    "top_1_reason": 0.5346133708953857,
+    "top_3_reason": 0.5346133708953857
+  }
+}

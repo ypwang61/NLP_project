@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Observed Video",
+  "ocr": "Observod Viiluec.",
+  "result_list": [
+    [
+      "Observed Video",
+      " typical terminology used in the context of video processing and matches the context from the paper"
+    ],
+    [
+      "Observed Vid",
+      " abbreviation for video consistent with the content"
+    ],
+    [
+      "Observed V",
+      " partial abbreviation leaving out 'ideo', plausible in the context"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 90,
+    "top_3_reason": 42
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.34318122267723083,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.4363440275192261,
+    "top_3_reason": 0.4363440275192261
+  }
+}

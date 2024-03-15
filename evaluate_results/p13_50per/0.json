@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Zhang",
+  "ocr": "Zhang",
+  "result_list": [
+    [
+      "Zhang",
+      "The context discusses the comparison between Zhang's method and the proposed method"
+    ],
+    [
+      "Reshet-201",
+      "Referring to the type of CNN used in Zhang's method as mentioned in the text"
+    ],
+    [
+      "Danhert-53",
+      "By elimination, as the other network mentioned in the comparison is Danhert-53"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 78,
+    "top_3_reason": 71
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 1.0000001192092896,
+    "top_1_guess": 1.0000001192092896,
+    "top_3_guess": 1.0000001192092896,
+    "top_1_reason": 0.3911086320877075,
+    "top_3_reason": 0.3911086320877075
+  }
+}

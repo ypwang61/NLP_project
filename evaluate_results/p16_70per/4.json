@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "LSTM",
+  "ocr": "Auranonious Vehicle",
+  "result_list": [
+    [
+      "Autonomous Vehicle",
+      "this is a standard term in the context of AV systems and makes sense within the diagram"
+    ],
+    [
+      "Adversarial Vehicle",
+      "given the adversarial context mentioned in the caption, it could be reasonable to assume an adversarial vehicle is being represented"
+    ],
+    [
+      "Attack Vehicle",
+      "considering the adversarial nature of the algorithm described, it might refer to the vehicle performing the attack"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 19,
+    "top_1_guess": 18,
+    "top_3_guess": 14,
+    "top_1_reason": 87,
+    "top_3_reason": 87
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4367711544036865,
+    "top_1_guess": 0.392379492521286,
+    "top_3_guess": 0.4330175220966339,
+    "top_1_reason": 0.30030566453933716,
+    "top_3_reason": 0.30030566453933716
+  }
+}

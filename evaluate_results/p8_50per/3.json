@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Projected Face",
+  "ocr": "[Unintelligible Text]",
+  "result_list": [
+    [
+      "Guided Image",
+      " the context suggests the image is used to guide the reconstruction process"
+    ],
+    [
+      "Clean Image",
+      " since the framework deals with noisy and occluded images, a clean image is likely used as a reference"
+    ],
+    [
+      "Reference Image",
+      " this term is often used for the image that guides the reconstruction process"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 19,
+    "top_1_guess": 10,
+    "top_3_guess": 10,
+    "top_1_reason": 67,
+    "top_3_reason": 67
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.40993747115135193,
+    "top_1_guess": 0.6379504203796387,
+    "top_3_guess": 0.6479834914207458,
+    "top_1_reason": 0.43553778529167175,
+    "top_3_reason": 0.43553778529167175
+  }
+}

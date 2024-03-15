@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "SoftMax",
+  "ocr": "Wood Fanbededine",
+  "result_list": [
+    [
+      "Word Embedding",
+      " the correct term for text preprocessing in neural networks"
+    ],
+    [
+      "Fusion",
+      " the process of combining parallel column outputs"
+    ],
+    [
+      "RNN+Dropout",
+      " indicating the recurrent network with regularization"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 14,
+    "top_1_guess": 13,
+    "top_3_guess": 7,
+    "top_1_reason": 55,
+    "top_3_reason": 46
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5220096111297607,
+    "top_1_guess": 0.3711598515510559,
+    "top_3_guess": 0.628679633140564,
+    "top_1_reason": 0.27038446068763733,
+    "top_3_reason": 0.36064350605010986
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "CNNs (Resnet-101)",
+  "ocr": "C(INN}, (Reshet-101)",
+  "result_list": [
+    [
+      "CNNs",
+      "It appears to be an abbreviation for Convolutional Neural Networks"
+    ],
+    [
+      "ResNet-101",
+      "This is likely referring to a specific CNN architecture known as Residual Network with 101 layers"
+    ],
+    [
+      "Danhnet-53",
+      "This seems like a misspelled or fictional network name, perhaps a variation of a CNN architecture"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 5,
+    "top_1_guess": 13,
+    "top_3_guess": 8,
+    "top_1_reason": 60,
+    "top_3_reason": 60
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 6.702145341854094e-232,
+    "top_3_guess": 6.702145341854094e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.693549394607544,
+    "top_1_guess": 0.6353181600570679,
+    "top_3_guess": 0.7809556722640991,
+    "top_1_reason": 0.3485517203807831,
+    "top_3_reason": 0.47457459568977356
+  }
+}

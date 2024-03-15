@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Convexity",
+  "ocr": "LualQuality.",
+  "result_list": [
+    [
+      "Local Quality",
+      " blurry image patches are input to estimate local quality"
+    ],
+    [
+      "Depth Quality",
+      " context implies measurement at different z-positions, assessing quality"
+    ],
+    [
+      "Focus Quality",
+      " focus estimation function described previously could relate to quality of focus"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 9,
+    "top_1_guess": 9,
+    "top_3_guess": 9,
+    "top_1_reason": 52,
+    "top_3_reason": 52
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.519856870174408,
+    "top_1_guess": 0.4965116083621979,
+    "top_3_guess": 0.5460308790206909,
+    "top_1_reason": 0.4387359023094177,
+    "top_3_reason": 0.4387359023094177
+  }
+}

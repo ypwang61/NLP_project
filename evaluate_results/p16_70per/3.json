@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Regression",
+  "ocr": "Auranonious Vehicle (\u2603\ufe0f)",
+  "result_list": [
+    [
+      "Q-function",
+      "reflects decision-making process in reinforcement learning"
+    ],
+    [
+      "Q-value",
+      "represents the quality of an action in RL"
+    ],
+    [
+      "Action Prediction",
+      "suggests final step is to predict actions based on learned data"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 22,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 49,
+    "top_3_reason": 33
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.38296568393707275,
+    "top_1_guess": 0.40831607580184937,
+    "top_3_guess": 0.6291026473045349,
+    "top_1_reason": 0.41153883934020996,
+    "top_3_reason": 0.43212881684303284
+  }
+}

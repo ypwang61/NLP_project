@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Natural Language Generation (NLG)",
+  "ocr": "NUS",
+  "result_list": [
+    [
+      "NLG",
+      " abbreviation stands for Natural Language Generation"
+    ],
+    [
+      "Natural Language Generation",
+      " full form of the abbreviation NLG"
+    ],
+    [
+      "Generation",
+      " part of the term Natural Language Generation"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 32,
+    "top_1_guess": 30,
+    "top_3_guess": 6,
+    "top_1_reason": 31,
+    "top_3_reason": 23
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 8.751273976943354e-78,
+    "top_1_reason": 5.775353993361614e-78,
+    "top_3_reason": 5.775353993361614e-78
+  },
+  "Bert_sim": {
+    "ocr": 0.3650056719779968,
+    "top_1_guess": 0.5240756869316101,
+    "top_3_guess": 0.6436548233032227,
+    "top_1_reason": 0.5239413976669312,
+    "top_3_reason": 0.5239413976669312
+  }
+}

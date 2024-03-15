@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "(c) Diag- g-learned SGP",
+  "ocr": "Diag-learmad SGP",
+  "result_list": [
+    [
+      "Diag-learned SGP",
+      " Likely abbreviation for diagonal learned Sparse Gradient Prior inferred from the caption"
+    ],
+    [
+      "Diagonally-learned SGP",
+      " Alternative interpretation of abbreviation with same SGP meaning"
+    ],
+    [
+      "Diag-learned Signal Processing",
+      " Possible misinterpretation using general field reference instead of SGP"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 9,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 73,
+    "top_3_reason": 55
+  },
+  "bleu_score": {
+    "ocr": 5.635809992474887e-232,
+    "top_1_guess": 5.635809992474887e-232,
+    "top_3_guess": 5.635809992474887e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0832677820940877e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.6736238598823547,
+    "top_1_guess": 0.8267353177070618,
+    "top_3_guess": 0.8267353177070618,
+    "top_1_reason": 0.4074189066886902,
+    "top_3_reason": 0.44151490926742554
+  }
+}

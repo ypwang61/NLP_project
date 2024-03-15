@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "FISTA-b",
+  "ocr": "(FISTA-)",
+  "result_list": [
+    [
+      "FISTA",
+      " text indicates the acronym for a reconstruction method used in comparison"
+    ],
+    [
+      "Fast Iterative Shrinkage-Thresholding Algorithm",
+      " possible expansion for the acronym FISTA"
+    ],
+    [
+      "FISTA with backtracking",
+      " the method used for comparison as mentioned in the caption"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 2,
+    "top_3_guess": 2,
+    "top_1_reason": 74,
+    "top_3_reason": 38
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7121844291687012,
+    "top_1_guess": 0.7431843876838684,
+    "top_3_guess": 0.7431843876838684,
+    "top_1_reason": 0.38558435440063477,
+    "top_3_reason": 0.5228529572486877
+  }
+}

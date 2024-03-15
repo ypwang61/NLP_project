@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Add",
+  "ocr": "Add & Norm",
+  "result_list": [
+    [
+      "Add & Norm",
+      " Common nomenclature in transformer architectures for the addition of residual connection and normalization"
+    ],
+    [
+      "Add & Normalization",
+      " Alternative phrasing for normalization step in layers"
+    ],
+    [
+      "Addition & Normalization",
+      " Describes the process of adding the input and the normalization in neural networks"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 7,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 105,
+    "top_3_reason": 53
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 1.384292958842266e-231,
+    "top_3_guess": 1.384292958842266e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5827000141143799,
+    "top_1_guess": 0.5827000141143799,
+    "top_3_guess": 0.5827000141143799,
+    "top_1_reason": 0.324516236782074,
+    "top_3_reason": 0.3383306562900543
+  }
+}

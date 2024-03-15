@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Lenh",
+  "ocr": "L\u2091\u2099\u2092",
+  "result_list": [
+    [
+      "L_enh",
+      " short for Loss Enhancement, the block is related to the Enhancement network and enhances STFT features"
+    ],
+    [
+      "L_enhance",
+      " Represents a loss function associated with the enhancement process of the audio signal"
+    ],
+    [
+      "L_enhancement",
+      " Indicates a loss function for the enhancement of audio features, consistent with the system architecture"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 1,
+    "top_3_guess": 1,
+    "top_1_reason": 99,
+    "top_3_reason": 84
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.45460906624794006,
+    "top_1_guess": 0.580644428730011,
+    "top_3_guess": 0.580644428730011,
+    "top_1_reason": 0.37021443247795105,
+    "top_3_reason": 0.37021443247795105
+  }
+}

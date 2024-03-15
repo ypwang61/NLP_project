@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Masked Self Attention",
+  "ocr": "Masked\" \"Self Attention",
+  "result_list": [
+    [
+      "Masked Self-Attention",
+      " seems to refer to the type of attention mechanism used in Transformer models"
+    ],
+    [
+      "Self-Attention Masked",
+      " alternative word order of the same concept"
+    ],
+    [
+      "Decoder Attention",
+      " related to the decoder part of a transformer where attention mechanisms are applied"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 1,
+    "top_3_guess": 1,
+    "top_1_reason": 63,
+    "top_3_reason": 33
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 9.291879812217675e-232,
+    "top_3_guess": 9.291879812217675e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.702589213848114,
+    "top_1_guess": 0.7630820274353027,
+    "top_3_guess": 0.7630820274353027,
+    "top_1_reason": 0.38580429553985596,
+    "top_3_reason": 0.42141225934028625
+  }
+}

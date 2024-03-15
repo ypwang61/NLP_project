@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Zhang",
+  "ocr": "Zhtang.",
+  "result_list": [
+    [
+      "Zhang",
+      " likely abbreviation for an author\u2019s name cited"
+    ],
+    [
+      "Citation reference",
+      " refers to previous works by Zhang"
+    ],
+    [
+      "Index term",
+      " related to academic referencing or indexing of research work"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 45,
+    "top_3_reason": 29
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 1.1640469867513693e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.4414961338043213,
+    "top_1_guess": 1.0000001192092896,
+    "top_3_guess": 1.0000001192092896,
+    "top_1_reason": 0.3266896605491638,
+    "top_3_reason": 0.49991801381111145
+  }
+}

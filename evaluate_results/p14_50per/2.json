@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "History",
+  "ocr": "Exterr",
+  "result_list": [
+    [
+      "context unit",
+      " related to text description of FCRBM architecture"
+    ],
+    [
+      "style features",
+      " considering \"real-valued stylistic features\" mentioned in the caption"
+    ],
+    [
+      "gating unit",
+      " as it functions to control interactions between visible and hidden units per the figure description"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 5,
+    "top_1_guess": 11,
+    "top_3_guess": 10,
+    "top_1_reason": 46,
+    "top_3_reason": 46
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.30623793601989746,
+    "top_1_guess": 0.44984686374664307,
+    "top_3_guess": 0.5047719478607178,
+    "top_1_reason": 0.3457911014556885,
+    "top_3_reason": 0.3457911014556885
+  }
+}

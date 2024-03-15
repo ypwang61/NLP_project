@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Cumulative Probabilities 1.0 0.8 0.6 0.4 0.2",
+  "ocr": "cumulative probabilituy",
+  "result_list": [
+    [
+      "cumulative probability",
+      " it's a common label for the y-axis in a cumulative distribution function graph"
+    ],
+    [
+      "classification probability",
+      " based on context this could be a misinterpretation of the y-axis related to classification errors"
+    ],
+    [
+      "accuracy probability",
+      " another possible label for the y-axis, which might be used in the context of accuracy measurements"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 25,
+    "top_1_guess": 25,
+    "top_3_guess": 25,
+    "top_1_reason": 66,
+    "top_3_reason": 66
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4264127016067505,
+    "top_1_guess": 0.4287014603614807,
+    "top_3_guess": 0.4287014603614807,
+    "top_1_reason": 0.3519926965236664,
+    "top_3_reason": 0.3519926965236664
+  }
+}

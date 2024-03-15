@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Add",
+  "ocr": "Add.",
+  "result_list": [
+    [
+      "Add & Norm",
+      " common terminology in transformer architectures referring to the addition and normalization steps after attention and feed-forward layers"
+    ],
+    [
+      "Add and Normalize",
+      " alternate phrasing of the same concept with a more explicit conjunction"
+    ],
+    [
+      "Addition and Normalization",
+      " full descriptive terms for the process"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 136,
+    "top_3_reason": 38
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.384292958842266e-231,
+    "top_3_guess": 1.384292958842266e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6485083699226379,
+    "top_1_guess": 0.5827000141143799,
+    "top_3_guess": 0.5827000141143799,
+    "top_1_reason": 0.3235577642917633,
+    "top_3_reason": 0.34975746273994446
+  }
+}

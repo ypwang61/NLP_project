@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Fbank",
+  "ocr": "Paper.",
+  "result_list": [
+    [
+      "Discriminant Network",
+      " closest related term to 'Paper' in system description"
+    ],
+    [
+      "Clean Features",
+      " as discriminant network distinguishes these from enhanced features"
+    ],
+    [
+      "Enhanced Features",
+      " possibly the output from the enhancement network that feeds into the discriminant network"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 17,
+    "top_3_guess": 12,
+    "top_1_reason": 52,
+    "top_3_reason": 52
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4483872950077057,
+    "top_1_guess": 0.4008488655090332,
+    "top_3_guess": 0.42856565117836,
+    "top_1_reason": 0.3421247601509094,
+    "top_3_reason": 0.3421247601509094
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Shuffle",
+  "ocr": "Shuffle",
+  "result_list": [
+    [
+      "Shuffle",
+      "The context indicates that this stage is where cross-machine data shuffling occurs in the original MapReduce process"
+    ],
+    [
+      "Thread Cache",
+      "The diagram contrasts the original MapReduce with Blaze MapReduce, where \"thread cache\" is mentioned as a feature of Blaze"
+    ],
+    [
+      "Reduce",
+      "This term is part of MapReduce process, shown in both the original and Blaze MapReduce"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 110,
+    "top_3_reason": 82
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.9999999403953552,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.35861966013908386,
+    "top_3_reason": 0.3606685698032379
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Add",
+  "ocr": "Add",
+  "result_list": [
+    [
+      "Layer Normalization",
+      " it typically follows operations like 'Add' in a Transformer architecture"
+    ],
+    [
+      "Residual Connection",
+      " as it is often accompanied by layer normalization"
+    ],
+    [
+      "Add & Norm",
+      " because this is a common label for the combination of residual add and normalization"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 19,
+    "top_3_guess": 7,
+    "top_1_reason": 70,
+    "top_3_reason": 49
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 0,
+    "top_3_guess": 1.384292958842266e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.9999999403953552,
+    "top_1_guess": 0.3258386552333832,
+    "top_3_guess": 0.5827000141143799,
+    "top_1_reason": 0.3771968185901642,
+    "top_3_reason": 0.3771968185901642
+  }
+}

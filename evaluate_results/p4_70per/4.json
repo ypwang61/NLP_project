@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Probabilities",
+  "ocr": "Probabilities",
+  "result_list": [
+    [
+      "Output Probabilities",
+      " context suggests final output from decoder is likely to be probabilities"
+    ],
+    [
+      "Prediction Probabilities",
+      " common output from a softmax layer in machine learning"
+    ],
+    [
+      "Class Probabilities",
+      " decoder might output probabilities for different classes"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 7,
+    "top_3_guess": 6,
+    "top_1_reason": 61,
+    "top_3_reason": 45
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 1.5319719891192393e-231,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 1.0,
+    "top_1_guess": 0.8812400102615356,
+    "top_3_guess": 0.8812400102615356,
+    "top_1_reason": 0.6012276411056519,
+    "top_3_reason": 0.6277855634689331
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "RNN+Dropout",
+  "ocr": "RNN+Drourvont",
+  "result_list": [
+    [
+      "RNN+Dropout",
+      " probable correct terminology in the context"
+    ],
+    [
+      "RNN+Regularization",
+      " another possible term used in neural networks to prevent overfitting"
+    ],
+    [
+      "Recurrent Layer+Dropout",
+      " specifying the layer type with the dropout technique"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 4,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 40,
+    "top_3_reason": 40
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6580241918563843,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.3802264332771301,
+    "top_3_reason": 0.49412184953689575
+  }
+}

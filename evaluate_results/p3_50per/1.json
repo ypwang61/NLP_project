@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "(S,t).",
+  "ocr": "Wood Fanbededine",
+  "result_list": [
+    [
+      "Sources and Targets",
+      " reason is the usual terminology in machine learning and signal processing to denote input data"
+    ],
+    [
+      "Source and Target",
+      " reason is an alternative wording for input variables often used in context of data processing"
+    ],
+    [
+      "Sender and Transmitter",
+      " although this is less likely, it could be a possible interpretation if the network deals with communication systems"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 16,
+    "top_1_guess": 19,
+    "top_3_guess": 17,
+    "top_1_reason": 94,
+    "top_3_reason": 93
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.354503333568573,
+    "top_1_guess": 0.2998674809932709,
+    "top_3_guess": 0.3277527093887329,
+    "top_1_reason": 0.2553533613681793,
+    "top_3_reason": 0.2884975075721741
+  }
+}

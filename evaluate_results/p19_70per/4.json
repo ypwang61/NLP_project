@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Move stage optimal to position",
+  "ocr": "Move stage to ectimal position",
+  "result_list": [
+    [
+      "Move stage to optimal position",
+      " reference to Step 7 which involves moving the sample stage to the optimal position"
+    ],
+    [
+      "Move to estimated position",
+      " considering the context of optimization and calibration in the focus process"
+    ],
+    [
+      "Adjust stage to correct focus",
+      " derived from the process of calibrating and adjusting focus using the obtained data"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 7,
+    "top_1_guess": 6,
+    "top_3_guess": 6,
+    "top_1_reason": 60,
+    "top_3_reason": 59
+  },
+  "bleu_score": {
+    "ocr": 9.975386110402101e-155,
+    "top_1_guess": 1.0547686614863434e-154,
+    "top_3_guess": 1.0547686614863434e-154,
+    "top_1_reason": 1.331960397810445e-231,
+    "top_3_reason": 1.331960397810445e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.6575320959091187,
+    "top_1_guess": 0.816662609577179,
+    "top_3_guess": 0.816662609577179,
+    "top_1_reason": 0.5812187790870667,
+    "top_3_reason": 0.5812187790870667
+  }
+}

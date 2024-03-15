@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "GBP",
+  "ocr": "Grablont Smootbbcad 13",
+  "result_list": [
+    [
+      "Gradient \u2a00 Input",
+      " mentioned in text as an explanation method"
+    ],
+    [
+      "Integrated Gradients",
+      " mentioned in text as IG"
+    ],
+    [
+      "Guided Backpropagation",
+      " mentioned in text as GBP and aligns with the acronym in the circle"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 21,
+    "top_1_guess": 15,
+    "top_3_guess": 15,
+    "top_1_reason": 43,
+    "top_3_reason": 24
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 9.594503055152632e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.4544578790664673,
+    "top_1_guess": 0.47194117307662964,
+    "top_3_guess": 0.47194117307662964,
+    "top_1_reason": 0.33861255645751953,
+    "top_3_reason": 0.4730416536331177
+  }
+}

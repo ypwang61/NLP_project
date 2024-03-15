@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Capsule layers",
+  "ocr": "Anniann 3pdilX",
+  "result_list": [
+    [
+      "activation output",
+      " it is likely a representation of the output from the sub-QNN"
+    ],
+    [
+      "entity feature",
+      " it could denote the encoded feature of an entity like an eye or mouth of a panda as per the explanation"
+    ],
+    [
+      "quantum state",
+      " it might signify the quantum state information of the output from the sub-QNN"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 13,
+    "top_1_guess": 16,
+    "top_3_guess": 11,
+    "top_1_reason": 53,
+    "top_3_reason": 53
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.37598493695259094,
+    "top_1_guess": 0.5863586068153381,
+    "top_3_guess": 0.6671613454818726,
+    "top_1_reason": 0.41465499997138977,
+    "top_3_reason": 0.424902081489563
+  }
+}

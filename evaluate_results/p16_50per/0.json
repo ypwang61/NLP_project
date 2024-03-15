@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Autonomous",
+  "ocr": "Ailitun 2'H'el9",
+  "result_list": [
+    [
+      "attacker",
+      " the context implies adversarial elements in AV systems"
+    ],
+    [
+      "adversarial",
+      " relevant to the adversarial nature of the algorithm"
+    ],
+    [
+      "fault injection",
+      " related to context where attackers inject faulty data"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 12,
+    "top_1_guess": 9,
+    "top_3_guess": 9,
+    "top_1_reason": 51,
+    "top_3_reason": 47
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4027606248855591,
+    "top_1_guess": 0.7272239923477173,
+    "top_3_guess": 0.7272239923477173,
+    "top_1_reason": 0.40599462389945984,
+    "top_3_reason": 0.40599462389945984
+  }
+}

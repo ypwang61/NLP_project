@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "(S,t).",
+  "ocr": "P(S,T)",
+  "result_list": [
+    [
+      "inputs",
+      " both columns in the architecture take separate document inputs"
+    ],
+    [
+      "S and T documents",
+      " the diagram seems to deal with two documents named S and T"
+    ],
+    [
+      "parallel processing",
+      " the architecture involves parallel processing of inputs"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 6,
+    "top_3_guess": 6,
+    "top_1_reason": 62,
+    "top_3_reason": 55
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7720295786857605,
+    "top_1_guess": 0.3402314782142639,
+    "top_3_guess": 0.5740878582000732,
+    "top_1_reason": 0.2959548532962799,
+    "top_3_reason": 0.42602792382240295
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Ordinary LLP Training",
+  "ocr": "Ordinary LLF Training.",
+  "result_list": [
+    [
+      "Standard LLP Training",
+      " the term \"Ordinary\" suggests a common or standard procedure commonly used in LLP"
+    ],
+    [
+      "Baseline LLP Training",
+      " it might indicate the starting point or basic level of training in LLP frameworks"
+    ],
+    [
+      "Initial LLP Training",
+      " implying that this training happens in the initial or first stage of the process"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 6,
+    "top_3_guess": 6,
+    "top_1_reason": 66,
+    "top_3_reason": 66
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 1.133422688662942e-154,
+    "top_3_guess": 1.133422688662942e-154,
+    "top_1_reason": 9.594503055152632e-232,
+    "top_3_reason": 9.594503055152632e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.8321939706802368,
+    "top_1_guess": 0.9171242713928223,
+    "top_3_guess": 0.9171242713928223,
+    "top_1_reason": 0.517699658870697,
+    "top_3_reason": 0.5368279218673706
+  }
+}

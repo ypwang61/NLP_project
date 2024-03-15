@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "GD class IOU matching",
+  "ocr": "lt class &l location\nnotoning",
+  "result_list": [
+    [
+      "detection and location",
+      " because it seems to refer to object detection and its location in the image"
+    ],
+    [
+      "class and location notation",
+      " as the context implies notation of class and spatial information"
+    ],
+    [
+      "classification & localization",
+      " following the general terminology in object detection tasks"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 17,
+    "top_1_guess": 18,
+    "top_3_guess": 18,
+    "top_1_reason": 65,
+    "top_3_reason": 52
+  },
+  "bleu_score": {
+    "ocr": 1.2183324802375697e-231,
+    "top_1_guess": 0,
+    "top_3_guess": 1.2882297539194154e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0244914152188952e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.5432555079460144,
+    "top_1_guess": 0.37071266770362854,
+    "top_3_guess": 0.48767557740211487,
+    "top_1_reason": 0.37507665157318115,
+    "top_3_reason": 0.4386669099330902
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "RGB",
+  "ocr": "Grablont Smooothbcad 13",
+  "result_list": [
+    [
+      "Gradient\u2299Input",
+      " It is a method mentioned in the text used for visualization and it fits the pattern of the corrupted text"
+    ],
+    [
+      "Integrated Gradients",
+      " Based on the context and the pattern of the corrupted text, this could be a valid guess"
+    ],
+    [
+      "Guided GradCAM",
+      " This is another method from the paper that could match the corrupted text pattern"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 23,
+    "top_1_guess": 14,
+    "top_3_guess": 13,
+    "top_1_reason": 106,
+    "top_3_reason": 82
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.3836480379104614,
+    "top_1_guess": 0.5101844668388367,
+    "top_3_guess": 0.5101844668388367,
+    "top_1_reason": 0.32164958119392395,
+    "top_3_reason": 0.3412633240222931
+  }
+}

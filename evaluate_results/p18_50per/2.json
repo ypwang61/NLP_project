@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "(c) Diag- g-learned SGP",
+  "ocr": "Diegrlenmed \ue0009b",
+  "result_list": [
+    [
+      "Diagonally Learned SGP",
+      " the correct term likely refers to a specific algorithm or method used for image reconstruction"
+    ],
+    [
+      "Diagonal Learned Sigmoid",
+      " this could be another possible interpretation but less likely as SGP might specifically refer to a Sparse Gaussian Process or similar algorithm variant"
+    ],
+    [
+      "Diangled Learned Sup",
+      " least likely but included if the context is drawing from a misspelled interpretation with 'Sup' being an incorrect OCR read"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 15,
+    "top_1_guess": 11,
+    "top_3_guess": 11,
+    "top_1_reason": 85,
+    "top_3_reason": 85
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 9.918892480173173e-232,
+    "top_3_guess": 9.918892480173173e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 8.319100378795605e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.4352508783340454,
+    "top_1_guess": 0.6172786951065063,
+    "top_3_guess": 0.6172786951065063,
+    "top_1_reason": 0.3249370753765106,
+    "top_3_reason": 0.4018065929412842
+  }
+}

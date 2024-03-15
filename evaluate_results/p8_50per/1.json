@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Projected Face",
+  "ocr": "Pygressrs Nire.",
+  "result_list": [
+    [
+      "Projected Face",
+      " The text likely describes the output of the Guidance Pipeline, which uses a non-occluded and non-noisy image to project the 3D face mesh"
+    ],
+    [
+      "Processed 3D Face",
+      " This might indicate the result of processing the face through the model's pipelines, leading to the creation of a 3D face that can handle occlusions and noise"
+    ],
+    [
+      "Integrated Data",
+      " Considering the framework's objective, this could represent the combined data of original and processed face images for robust 3D face reconstruction"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 11,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 125,
+    "top_3_reason": 125
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.41994988918304443,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.4164678752422333,
+    "top_3_reason": 0.4383027255535126
+  }
+}

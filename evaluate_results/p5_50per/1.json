@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Fusion",
+  "ocr": "Antlum",
+  "result_list": [
+    [
+      "feature maps",
+      " commonly found in neural network architecture diagrams"
+    ],
+    [
+      "activation maps",
+      " also commonly found in neural network architecture diagrams"
+    ],
+    [
+      "convolution kernels",
+      " could be relevant if the architecture employs convolutional layers"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 11,
+    "top_3_guess": 11,
+    "top_1_reason": 52,
+    "top_3_reason": 52
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4220011830329895,
+    "top_1_guess": 0.4443977475166321,
+    "top_3_guess": 0.5866711735725403,
+    "top_1_reason": 0.3936675786972046,
+    "top_3_reason": 0.4286027252674103
+  }
+}

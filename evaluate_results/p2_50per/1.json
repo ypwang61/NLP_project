@@ -1,0 +1,35 @@
+{
+  "ori_ocr_text": "parallel online augmentation (CPU)",
+  "ocr": "error)\n3: (partially online sampling, related to the context of sampling in a network, possible",
+  "result_list": [
+    [
+      "partial online augmentation",
+      "relevance to parallel online augmentation in CPUs for network augmentation stage"
+    ],
+    [
+      "partly online augmentation",
+      "slight variation in phrasing, could be due to"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 73,
+    "top_1_guess": 10,
+    "top_3_guess": 10,
+    "top_1_reason": 48,
+    "top_3_reason": 37
+  },
+  "bleu_score": {
+    "ocr": 9.257324954728539e-232,
+    "top_1_guess": 8.121328445417258e-155,
+    "top_3_guess": 8.121328445417258e-155,
+    "top_1_reason": 3.4077295621678842e-78,
+    "top_3_reason": 3.4077295621678842e-78
+  },
+  "Bert_sim": {
+    "ocr": 0.4400378465652466,
+    "top_1_guess": 0.6620029807090759,
+    "top_3_guess": 0.6620029807090759,
+    "top_1_reason": 0.6899192929267883,
+    "top_3_reason": 0.6899192929267883
+  }
+}

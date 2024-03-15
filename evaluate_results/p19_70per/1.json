@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "ROI information",
+  "ocr": "intormation",
+  "result_list": [
+    [
+      "Region of Interest",
+      " references \"Region of Interest (ROI)\" which is a term used in the paper"
+    ],
+    [
+      "ROI information",
+      " directly relates to the information within the ROI as mentioned in the process described"
+    ],
+    [
+      "Sample Information",
+      " considering that the context involves moving the sample to a new point and assessing focus, so this could be sample-specific information"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 5,
+    "top_1_guess": 14,
+    "top_3_guess": 0,
+    "top_1_reason": 64,
+    "top_3_reason": 64
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 1.1200407237786664e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.48648297786712646,
+    "top_1_guess": 0.338243693113327,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.4129687249660492,
+    "top_3_reason": 0.50806725025177
+  }
+}

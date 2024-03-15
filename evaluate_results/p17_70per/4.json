@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "MSE",
+  "ocr": "Enlence.",
+  "result_list": [
+    [
+      "Enhance",
+      " It is the logical label for the blue block that transforms noisy STFT features to enhanced STFT features"
+    ],
+    [
+      "Feature Enhancement",
+      " This block deals with the enhancement of features which could be described as feature enhancement"
+    ],
+    [
+      "STFT Enhancement",
+      " Since the transformation is from noisy STFT to enhanced STFT, this could be a possible label referring to the specific type of enhancement occurring"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 8,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 104,
+    "top_3_reason": 98
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.45544320344924927,
+    "top_1_guess": 0.5040621161460876,
+    "top_3_guess": 0.5514320135116577,
+    "top_1_reason": 0.379756897687912,
+    "top_3_reason": 0.379756897687912
+  }
+}

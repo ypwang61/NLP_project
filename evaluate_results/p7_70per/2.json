@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Recognition Model",
+  "ocr": "Recognition Mode",
+  "result_list": [
+    [
+      "Recognition Model",
+      "text is similar to 'Recognition Mode' with a missing 'l'"
+    ],
+    [
+      "Recognition Module",
+      "considering the context the text might refer to a module within the system"
+    ],
+    [
+      "Recognition Method",
+      "possible alternative term for a procedural component within the framework"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 39,
+    "top_3_reason": 39
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.8523926734924316,
+    "top_1_guess": 0.9999998807907104,
+    "top_3_guess": 0.9999998807907104,
+    "top_1_reason": 0.4737772047519684,
+    "top_3_reason": 0.4737772047519684
+  }
+}

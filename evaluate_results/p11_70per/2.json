@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Knowledge Base (KB)",
+  "ocr": "Knewladge Base [X](C)",
+  "result_list": [
+    [
+      "Knowledge Base",
+      " match with diagram flow and text context"
+    ],
+    [
+      "Dialogue Management",
+      " adjacent label correction based on diagram context"
+    ],
+    [
+      "Data Repository",
+      " synonymous term for a knowledge base in computing contexts"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 7,
+    "top_1_guess": 5,
+    "top_3_guess": 5,
+    "top_1_reason": 34,
+    "top_3_reason": 34
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 9.047424648113057e-155,
+    "top_3_guess": 9.047424648113057e-155,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5620384216308594,
+    "top_1_guess": 0.6831880807876587,
+    "top_3_guess": 0.6831880807876587,
+    "top_1_reason": 0.443766713142395,
+    "top_3_reason": 0.48822951316833496
+  }
+}

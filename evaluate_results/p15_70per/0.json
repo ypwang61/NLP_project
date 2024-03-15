@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Future Video",
+  "ocr": "Future Video.",
+  "result_list": [
+    [
+      "Maximize the similarity",
+      " text describes the process of maximizing the similarity between \\( z_t \\) and \\( z \\"
+    ],
+    [
+      "Summary Network",
+      " label hints at the function of the network block which is to summarize features"
+    ],
+    [
+      "Future Video",
+      " red circle likely indicates labels or concepts related to the prediction of unseen video content"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 20,
+    "top_3_guess": 0,
+    "top_1_reason": 79,
+    "top_3_reason": 73
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 0,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7900418639183044,
+    "top_1_guess": 0.3747042715549469,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.29295897483825684,
+    "top_3_reason": 0.3737204670906067
+  }
+}

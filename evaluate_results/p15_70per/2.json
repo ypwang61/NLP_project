@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Observed Video",
+  "ocr": "Observed vidco",
+  "result_list": [
+    [
+      "Observed Video",
+      " mentions of observed video in the context and visual flow of the diagram"
+    ],
+    [
+      "Summary Network",
+      " due to its proximity to the 'Summary Network' block in the flow diagram"
+    ],
+    [
+      "Feature Vector \\( Z_t \\)",
+      " as it is a component specified in the text being described in the visual representation"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 61,
+    "top_3_reason": 61
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6564700603485107,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.512617290019989,
+    "top_3_reason": 0.512617290019989
+  }
+}

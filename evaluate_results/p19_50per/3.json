@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "yes",
+  "ocr": "PG",
+  "result_list": [
+    [
+      "GSS Algorithm",
+      " mentioned as an initialization step in the description"
+    ],
+    [
+      "Increment",
+      " associated with the GSS updating process"
+    ],
+    [
+      "Blur measure",
+      " related to the evaluation of blurriness in the steps"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 13,
+    "top_3_guess": 8,
+    "top_1_reason": 53,
+    "top_3_reason": 39
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5145313739776611,
+    "top_1_guess": 0.3858223259449005,
+    "top_3_guess": 0.424509733915329,
+    "top_1_reason": 0.3479841947555542,
+    "top_3_reason": 0.3479841947555542
+  }
+}

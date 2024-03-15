@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Add",
+  "ocr": "Add.",
+  "result_list": [
+    [
+      "Add & Norm",
+      " appears consistently with similar blocks in the architecture"
+    ],
+    [
+      "Residual Connection",
+      " commonly follows attention mechanisms in Transformer models"
+    ],
+    [
+      "Layer Normalization",
+      " typically paired with Add & Norm in Transformer architectures"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 61,
+    "top_3_reason": 59
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.384292958842266e-231,
+    "top_3_guess": 1.384292958842266e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0518351895246305e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.6485083699226379,
+    "top_1_guess": 0.5827000141143799,
+    "top_3_guess": 0.5827000141143799,
+    "top_1_reason": 0.33713075518608093,
+    "top_3_reason": 0.3721080720424652
+  }
+}

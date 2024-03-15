@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Output motion mask",
+  "ocr": "<output motion mask>",
+  "result_list": [
+    [
+      "output motion mask",
+      " it is the final product of the network processing both RGB and LiDAR data"
+    ],
+    [
+      "movement mask",
+      " it could represent a heat map or overlay indicating motion detected by the system"
+    ],
+    [
+      "dynamic object mask",
+      " refers to the output that segregates moving objects from the static environment"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 1,
+    "top_3_guess": 1,
+    "top_1_reason": 63,
+    "top_3_reason": 63
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 1.133422688662942e-154,
+    "top_3_guess": 1.133422688662942e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 9.418382295637229e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.6731219291687012,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.41197460889816284,
+    "top_3_reason": 0.43801864981651306
+  }
+}

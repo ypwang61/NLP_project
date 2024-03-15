@@ -1,0 +1,1 @@
+figure number-tk reconstructed images for sparse-view ct from (a) input image (number-tk views) : (b) fista with backtracking, (c) proposed diag-learned sgp, all at the 10th iteration. (d) proposed method yielded faster convergence rate than fista-b.

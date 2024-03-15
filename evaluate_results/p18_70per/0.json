@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Iteration VS. NMSE (dB)",
+  "ocr": "(dleratinn vs. NMSE (dB)",
+  "result_list": [
+    [
+      "Iteration vs. NMSE (dB)",
+      " Reason: The text indicates a comparison graph between iterations and Normalized Mean Square Error in decibels"
+    ],
+    [
+      "Iteration count vs. NMSE (dB)",
+      " Reason: The context implies the graph plots iteration counts against NMSE in decibels, a common evaluation metric in reconstruction tasks"
+    ],
+    [
+      "Improvement rate vs. NMSE (dB)",
+      " Reason: The red circle likely points at a plot showing how the improvement rate correlates with NMSE measured in decibels"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 2,
+    "top_3_guess": 2,
+    "top_1_reason": 94,
+    "top_3_reason": 94
+  },
+  "bleu_score": {
+    "ocr": 9.53091075863908e-155,
+    "top_1_guess": 1.0547686614863434e-154,
+    "top_3_guess": 1.0547686614863434e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 8.614911585158347e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.749538242816925,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.44269001483917236,
+    "top_3_reason": 0.5323961973190308
+  }
+}

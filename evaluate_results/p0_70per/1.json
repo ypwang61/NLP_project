@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Local CNN",
+  "ocr": "Yoral CNN.",
+  "result_list": [
+    [
+      "Local CNN",
+      " it is consistent with the term used in the paper and represents the high-capacity CNN that processes detailed features from selected regions"
+    ],
+    [
+      "Focused CNN",
+      " it could be an alternative naming for the CNN that focuses on the selected image patch regions for feature extraction"
+    ],
+    [
+      "Patch CNN",
+      " reflects that this CNN processes patches from images as indicated by the context in which the detailed local regions are selected for analysis"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 134,
+    "top_3_reason": 111
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 8.412065649527267e-232,
+    "top_3_reason": 8.614911585158347e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.5222057700157166,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.3829915225505829,
+    "top_3_reason": 0.4343271255493164
+  }
+}

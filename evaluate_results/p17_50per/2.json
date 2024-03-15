@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Lenh",
+  "ocr": "I04 h",
+  "result_list": [
+    [
+      "Enhancement Network",
+      " most likely matches the context of transforming noisy STFT features to enhanced ones"
+    ],
+    [
+      "Feature Transformation",
+      " could refer to the process of enhancement in the network"
+    ],
+    [
+      "STFT Enhancement",
+      " could be a term used to describe the action of the enhancement network on STFT features"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 4,
+    "top_1_guess": 17,
+    "top_3_guess": 14,
+    "top_1_reason": 82,
+    "top_3_reason": 54
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4595036506652832,
+    "top_1_guess": 0.4165715277194977,
+    "top_3_guess": 0.5229654312133789,
+    "top_1_reason": 0.3589160442352295,
+    "top_3_reason": 0.37313324213027954
+  }
+}

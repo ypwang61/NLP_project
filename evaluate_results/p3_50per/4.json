@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Word Embedding",
+  "ocr": "Wood Fanbedding",
+  "result_list": [
+    [
+      "Word Embedding",
+      " the text aligns with the described process of handling inputs"
+    ],
+    [
+      "Embedding Layer",
+      " commonly used terminology for converting words into vectors"
+    ],
+    [
+      "Word Representation",
+      " considering the context of neural networks and processing natural language"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 4,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 54,
+    "top_3_reason": 52
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6444724798202515,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.4270853102207184,
+    "top_3_reason": 0.4717220366001129
+  }
+}

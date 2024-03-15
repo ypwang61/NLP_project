@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "GD class IOU matching",
+  "ocr": "GD uizss Bi; IOU natcning.",
+  "result_list": [
+    [
+      "GD classes & IOU matching",
+      "The correct text likely refers to classes of grasping detection and their matching based on the Intersection over Union metric"
+    ],
+    [
+      "Grasping Detection & IOU matching",
+      "A common term in object detection literature referring to the process of matching detected objects"
+    ],
+    [
+      "Object classes & IOU matching",
+      "Given the context, the circle may refer to matching object classes based on IOU, although this is less likely given the specific focus on grasping in other parts of the text"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 10,
+    "top_1_guess": 4,
+    "top_3_guess": 4,
+    "top_1_reason": 110,
+    "top_3_reason": 83
+  },
+  "bleu_score": {
+    "ocr": 1.4488496539373276e-231,
+    "top_1_guess": 9.283142785759642e-155,
+    "top_3_guess": 9.283142785759642e-155,
+    "top_1_reason": 8.614911585158347e-232,
+    "top_3_reason": 9.257324954728539e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.6407000422477722,
+    "top_1_guess": 0.8600400686264038,
+    "top_3_guess": 0.8600400686264038,
+    "top_1_reason": 0.46741148829460144,
+    "top_3_reason": 0.47002074122428894
+  }
+}

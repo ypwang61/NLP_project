@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Enhance",
+  "ocr": "Pifianmcs.",
+  "result_list": [
+    [
+      "Enhancement Network",
+      " context imply parts of system dealing with STFT features"
+    ],
+    [
+      "Discriminant Network",
+      " context imply parts of system dealing with assessment quality"
+    ],
+    [
+      "Fbank Feature Extraction",
+      " context imply parts of system relating to feature extraction"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 7,
+    "top_1_guess": 12,
+    "top_3_guess": 12,
+    "top_1_reason": 53,
+    "top_3_reason": 53
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4444345533847809,
+    "top_1_guess": 0.48114722967147827,
+    "top_3_guess": 0.48114722967147827,
+    "top_1_reason": 0.42783766984939575,
+    "top_3_reason": 0.42783766984939575
+  }
+}

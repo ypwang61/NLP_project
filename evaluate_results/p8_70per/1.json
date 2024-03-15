@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Projected Face",
+  "ocr": "Projected Pace",
+  "result_list": [
+    [
+      "Projected Face",
+      " It's the output of the pipeline applying to a guiding image"
+    ],
+    [
+      "Reconstructed Face",
+      " It could be the term for the 3D representation generated from the occluded or noisy image"
+    ],
+    [
+      "Guidance Image",
+      " It might refer to the initial non-occluded and noise-free input used for comparison"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 53,
+    "top_3_reason": 53
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7591226100921631,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.44844523072242737,
+    "top_3_reason": 0.44844523072242737
+  }
+}

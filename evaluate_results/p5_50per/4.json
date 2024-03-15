@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "rgbFlow processing",
+  "ocr": "fa@flow 200c@ssins",
+  "result_list": [
+    [
+      "Dataflow",
+      " context implies a movement or process of data"
+    ],
+    [
+      "Control flow",
+      " possibility of being related to the management of operations within the network"
+    ],
+    [
+      "Signal flow",
+      " could refer to the propagation of signals or information within the architecture"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 9,
+    "top_1_guess": 16,
+    "top_3_guess": 15,
+    "top_1_reason": 36,
+    "top_3_reason": 36
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.447050005197525,
+    "top_1_guess": 0.5967054963111877,
+    "top_3_guess": 0.5967054963111877,
+    "top_1_reason": 0.3705781102180481,
+    "top_3_reason": 0.3705781102180481
+  }
+}

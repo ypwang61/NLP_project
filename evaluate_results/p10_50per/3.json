@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "RGB",
+  "ocr": "213j",
+  "result_list": [
+    [
+      "Gradient",
+      " It is the first method mentioned in the references"
+    ],
+    [
+      "Input",
+      " It usually follows the term \"Gradient\" which is discussed as a separate explanation method"
+    ],
+    [
+      "Explanation",
+      " It is likely a part of the term \"Gradient Explanation\" that appears in the text alongside other methods"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 4,
+    "top_1_guess": 8,
+    "top_3_guess": 5,
+    "top_1_reason": 51,
+    "top_3_reason": 51
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.46545618772506714,
+    "top_1_guess": 0.4190398156642914,
+    "top_3_guess": 0.5264315009117126,
+    "top_1_reason": 0.3319369852542877,
+    "top_3_reason": 0.3319369852542877
+  }
+}

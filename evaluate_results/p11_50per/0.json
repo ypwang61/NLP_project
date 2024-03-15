@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Natural Language Understanding (NLU)",
+  "ocr": "Unado Incaiga (N60)",
+  "result_list": [
+    [
+      "Natural Language Processing",
+      " it seems like a garbled version of Natural Language Understanding which is mentioned in the context"
+    ],
+    [
+      "Natural Language Understanding",
+      " the diagram likely refers to the NLU component as it is a common part of dialog systems and fits the context"
+    ],
+    [
+      "Natural Language Interaction",
+      " considering the context, it could be an alternative term for engaging with natural language in dialog systems"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 26,
+    "top_1_guess": 15,
+    "top_3_guess": 6,
+    "top_1_reason": 69,
+    "top_3_reason": 69
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 8.121328445417258e-155,
+    "top_3_guess": 8.751273976943354e-78,
+    "top_1_reason": 2.5106669237851586e-78,
+    "top_3_reason": 2.5106669237851586e-78
+  },
+  "Bert_sim": {
+    "ocr": 0.36282435059547424,
+    "top_1_guess": 0.6081162095069885,
+    "top_3_guess": 0.6301131248474121,
+    "top_1_reason": 0.4309927523136139,
+    "top_3_reason": 0.4309927523136139
+  }
+}

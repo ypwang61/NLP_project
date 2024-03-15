@@ -1,0 +1,35 @@
+{
+  "ori_ocr_text": "Input Image",
+  "ocr": "error or manual mistake)\n3: (Intput Image, This could be an",
+  "result_list": [
+    [
+      "Input Image",
+      "The label corresponds to the first step of the process where an image is inputted for analysis"
+    ],
+    [
+      "Inout Image",
+      "It's a common misspelling of 'Input,' possibly due to"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 48,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 86,
+    "top_3_reason": 46
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.44358035922050476,
+    "top_1_guess": 0.9999998807907104,
+    "top_3_guess": 0.9999998807907104,
+    "top_1_reason": 0.474168598651886,
+    "top_3_reason": 0.474168598651886
+  }
+}

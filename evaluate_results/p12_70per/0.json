@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "2/9 4/9 3/9",
+  "ocr": "(1/5 0/5 0/5)",
+  "result_list": [
+    [
+      "1/5",
+      " 2/5, 2/5, The fractions likely represent label proportions for a class distribution in a dataset. The first stage of the LLP process perhaps involves constraining label proportions"
+    ],
+    [
+      "Train",
+      " Test, Validation, May indicate different dataset splits used in the training process, though less likely due to context"
+    ],
+    [
+      "Proportion constraints",
+      " May correspond to the constraint setup for label proportions during the training, but guessing based on the provided context"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 8,
+    "top_1_guess": 10,
+    "top_3_guess": 10,
+    "top_1_reason": 176,
+    "top_3_reason": 118
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6955766677856445,
+    "top_1_guess": 0.6304260492324829,
+    "top_3_guess": 0.6304260492324829,
+    "top_1_reason": 0.443220853805542,
+    "top_3_reason": 0.443220853805542
+  }
+}

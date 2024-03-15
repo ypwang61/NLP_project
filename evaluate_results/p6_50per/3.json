@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Reduce",
+  "ocr": "Shuffie",
+  "result_list": [
+    [
+      "Reduce",
+      " this is a diagram comparing original MapReduce with Blaze MapReduce and highlights the 'Reduce' step common to both"
+    ],
+    [
+      "Local Reduce",
+      " the context implies that the reduction happens locally within the machine before shuffling"
+    ],
+    [
+      "Thread-local cache",
+      " the text mentions that new values are reduced to a thread-local cache, which could be related to the reduce function in the context of the diagram"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 110,
+    "top_3_reason": 86
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5051612854003906,
+    "top_1_guess": 1.0000001192092896,
+    "top_3_guess": 1.0000001192092896,
+    "top_1_reason": 0.3627913296222687,
+    "top_3_reason": 0.43200355768203735
+  }
+}

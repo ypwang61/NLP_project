@@ -1,0 +1,31 @@
+{
+  "ori_ocr_text": "Q function",
+  "ocr": "function cetvork AV",
+  "result_list": [
+    [
+      "Q function network AV",
+      "Reason: The context of DNN and adversarial DRL algorithms suggests that this segment represents the Q function network related to the autonomous vehicle (AV) portion of the architecture), 2: (Q network AV, Reason: Likely a part of the system responsible for the Q learning process in relation to the AV), 3: (Q learning AV, Reason: Given that the model seeks to learn optimal actions for an AV, a component might relate to Q learning, a common reinforcement learning technique)."
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 13,
+    "top_1_guess": 11,
+    "top_3_guess": 11,
+    "top_1_reason": 468,
+    "top_3_reason": 468
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 9.53091075863908e-155,
+    "top_3_guess": 9.53091075863908e-155,
+    "top_1_reason": 2.002162353573271e-155,
+    "top_3_reason": 2.002162353573271e-155
+  },
+  "Bert_sim": {
+    "ocr": 0.38533976674079895,
+    "top_1_guess": 0.6557688117027283,
+    "top_3_guess": 0.6557688117027283,
+    "top_1_reason": 0.4034281075000763,
+    "top_3_reason": 0.4034281075000763
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Q function",
+  "ocr": "runction network Aaclcler.",
+  "result_list": [
+    [
+      "Q function network AV",
+      "common terms in machine learning and related to context"
+    ],
+    [
+      "Q network AV",
+      "shorthand or typo variant of the term 'Q function network'"
+    ],
+    [
+      "function network AV",
+      "missing 'Q' from the commonly used term in context"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 21,
+    "top_1_guess": 11,
+    "top_3_guess": 9,
+    "top_1_reason": 49,
+    "top_3_reason": 42
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 9.53091075863908e-155,
+    "top_3_guess": 9.53091075863908e-155,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0244914152188952e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.37491878867149353,
+    "top_1_guess": 0.6557688117027283,
+    "top_3_guess": 0.6557688117027283,
+    "top_1_reason": 0.35444068908691406,
+    "top_3_reason": 0.4466392993927002
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Shuffle",
+  "ocr": "Shuffle",
+  "result_list": [
+    [
+      "Shuffle",
+      " It is a step in MapReduce where data is redistributed"
+    ],
+    [
+      "Thread cache",
+      " It refers to local storage of data for threading purposes"
+    ],
+    [
+      "Stream cache",
+      " Possible misspelling or alternate term for thread-local caching in MapReduce context"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 52,
+    "top_3_reason": 52
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.9999999403953552,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.32129546999931335,
+    "top_3_reason": 0.32129546999931335
+  }
+}

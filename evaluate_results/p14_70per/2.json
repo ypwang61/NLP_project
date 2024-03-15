@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "History",
+  "ocr": "History",
+  "result_list": [
+    [
+      "Context",
+      " because \"Context\" is commonly used in graphical models to indicate factors or variables informing other parts of the model"
+    ],
+    [
+      "Control",
+      " due to the text's discussion on user control over generation, it could be mentioning a control unit"
+    ],
+    [
+      "Factor",
+      " as \"factor\" is mentioned repeatedly in the description, and the model is described as \"factored\""
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 6,
+    "top_3_guess": 4,
+    "top_1_reason": 118,
+    "top_3_reason": 91
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.9999998807907104,
+    "top_1_guess": 0.5879124999046326,
+    "top_3_guess": 0.5879124999046326,
+    "top_1_reason": 0.2955092489719391,
+    "top_3_reason": 0.3094716966152191
+  }
+}

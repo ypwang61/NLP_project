@@ -5,21 +5,15 @@
 # inputs and outputs directories
 
 
-ori/
-ori_red_circles/
-reconstructions/
-red_circles/
-references/
-texts/
+
 
 inputs/
 outputs/
 
-evaluate_results/
 
 # ignore all the directories
 
-# */
 __pycache__/
 _prev/
 evaluate_results_store/
+real_datasets/

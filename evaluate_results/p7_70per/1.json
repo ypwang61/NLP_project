@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Joint Learning",
+  "ocr": "eFtim Leantin",
+  "result_list": [
+    [
+      "Feature Learning",
+      "it's a common term used in the context of machine learning and image processing frameworks),"
+    ],
+    [
+      "Feature Extraction",
+      "this term is often used interchangeably with feature learning in the context of preparing data for recognition models),"
+    ],
+    [
+      "Feature Scaling",
+      "while less likely, it's still possible within the context of resizing and optimizing images)."
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 8,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 80,
+    "top_3_reason": 80
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.5319719891192393e-231,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.33396419882774353,
+    "top_1_guess": 0.7184593677520752,
+    "top_3_guess": 0.7184593677520752,
+    "top_1_reason": 0.3578251898288727,
+    "top_3_reason": 0.392674058675766
+  }
+}

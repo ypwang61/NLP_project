@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "RNNTDropout",
+  "ocr": "RNN+Druron",
+  "result_list": [
+    [
+      "RNN+Dropout",
+      " typical components in a neural network architecture involving recurrent layers and regularization methods"
+    ],
+    [
+      "RNN+Druron",
+      " possible OCR error, misreading 'Dropout' as 'Druron'"
+    ],
+    [
+      "RNN+Druvont",
+      " another possible OCR error, mistaking 'Dropout' for 'Druvont'"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 5,
+    "top_1_guess": 1,
+    "top_3_guess": 1,
+    "top_1_reason": 101,
+    "top_3_reason": 45
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5351575613021851,
+    "top_1_guess": 0.5759152173995972,
+    "top_3_guess": 0.5759152173995972,
+    "top_1_reason": 0.38127076625823975,
+    "top_3_reason": 0.3938632905483246
+  }
+}

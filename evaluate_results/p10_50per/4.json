@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Gray Scale",
+  "ocr": "Naty Saale",
+  "result_list": [
+    [
+      "Gradient \u2299 Input",
+      " the textual description in the paper matches the context of the visualized techniques"
+    ],
+    [
+      "SmoothGrad",
+      " as one of the methods listed in the reference paper, it could match the visual pattern in the red circle if related to noise reduction in visualization"
+    ],
+    [
+      "Integrated Gradients",
+      " as it is another method described in the paper that may correspond with the visualizations and is related to feature importance"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 4,
+    "top_1_guess": 12,
+    "top_3_guess": 10,
+    "top_1_reason": 79,
+    "top_3_reason": 79
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.33819738030433655,
+    "top_1_guess": 0.41443780064582825,
+    "top_3_guess": 0.6270150542259216,
+    "top_1_reason": 0.34971368312835693,
+    "top_3_reason": 0.35807526111602783
+  }
+}

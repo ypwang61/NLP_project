@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Original Resolution",
+  "ocr": "Original Resolution.",
+  "result_list": [
+    [
+      "Original Resolution",
+      "The red circle highlights the input stage where the original resolution of an image is provided before resizing"
+    ],
+    [
+      "Input Image",
+      "The red circle may intend to denote the input image at its initial resolution before being processed"
+    ],
+    [
+      "High-Resolution Image",
+      "The circle might indicate the term used to describe the initial high-resolution state of an image before resizing"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 94,
+    "top_3_reason": 83
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7857398986816406,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.5021066069602966,
+    "top_3_reason": 0.5021066069602966
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Ordinary LLP Training",
+  "ocr": "Ordinary LLP Training.",
+  "result_list": [
+    [
+      "First Stage",
+      "linked to the initial LLP training process"
+    ],
+    [
+      "Initial Training",
+      "as it represents the beginning of the framework"
+    ],
+    [
+      "Primary Phase",
+      "synonymous with the beginning of the process"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 17,
+    "top_3_guess": 11,
+    "top_1_reason": 27,
+    "top_3_reason": 27
+  },
+  "bleu_score": {
+    "ocr": 1.133422688662942e-154,
+    "top_1_guess": 0,
+    "top_3_guess": 9.291879812217675e-232,
+    "top_1_reason": 1.1200407237786664e-231,
+    "top_3_reason": 1.1200407237786664e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.886816143989563,
+    "top_1_guess": 0.3561810553073883,
+    "top_3_guess": 0.6143446564674377,
+    "top_1_reason": 0.6785367131233215,
+    "top_3_reason": 0.6785367131233215
+  }
+}

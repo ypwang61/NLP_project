@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Dialog Management (DM)",
+  "ocr": "Dialog Managumant (044)",
+  "result_list": [
+    [
+      "Dialog Management",
+      " it is the correct term commonly used in dialog systems corresponding to the context described"
+    ],
+    [
+      "Dialog Control",
+      " an alternative term that could be used to describe the management of dialog flow in such systems"
+    ],
+    [
+      "Conversation Management",
+      " another possible term that can describe overseeing the dialog in such systems"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 5,
+    "top_1_guess": 5,
+    "top_3_guess": 5,
+    "top_1_reason": 82,
+    "top_3_reason": 68
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 9.047424648113057e-155,
+    "top_3_guess": 9.047424648113057e-155,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5417734384536743,
+    "top_1_guess": 0.6963599324226379,
+    "top_3_guess": 0.6963599324226379,
+    "top_1_reason": 0.4446548521518707,
+    "top_3_reason": 0.4526379406452179
+  }
+}

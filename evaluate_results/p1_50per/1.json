@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Input data",
+  "ocr": "<aphm & l>",
+  "result_list": [
+    [
+      "sub-quantum neural network",
+      " it seems to represent a component within the framework that processes a particular feature like an eyes or ears of an entity"
+    ],
+    [
+      "quantum state",
+      " since it's a part of the SubQNN output, it could be a representation of the quantum state related to a certain feature"
+    ],
+    [
+      "feature extractor",
+      " given that the capsules work on extracting features and this might be the part where it's indicated"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 8,
+    "top_1_guess": 21,
+    "top_3_guess": 8,
+    "top_1_reason": 118,
+    "top_3_reason": 91
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.3738941550254822,
+    "top_1_guess": 0.4461022913455963,
+    "top_3_guess": 0.555833637714386,
+    "top_1_reason": 0.37483489513397217,
+    "top_3_reason": 0.4035019278526306
+  }
+}

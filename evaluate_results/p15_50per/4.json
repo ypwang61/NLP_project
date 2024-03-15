@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Classifier",
+  "ocr": "biurstifier.",
+  "result_list": [
+    [
+      "Classifier",
+      " logical part of the system for action prediction"
+    ],
+    [
+      "Predictive Model",
+      " could be a module in the architecture interpreting observed features"
+    ],
+    [
+      "Action Labeler",
+      " a component that might categorize actions based on learned features"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 42,
+    "top_3_reason": 42
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5355165600776672,
+    "top_1_guess": 1.000000238418579,
+    "top_3_guess": 1.000000238418579,
+    "top_1_reason": 0.5096971392631531,
+    "top_3_reason": 0.5096971392631531
+  }
+}

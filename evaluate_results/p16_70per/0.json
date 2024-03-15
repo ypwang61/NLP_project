@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Autonomous",
+  "ocr": "Auranonymous VehicIe (\ua4f8J5)",
+  "result_list": [
+    [
+      "Autonomous Vehicle",
+      "context of adversarial machine learning in AV control"
+    ],
+    [
+      "Self-driving Car",
+      "common term for AV"
+    ],
+    [
+      "Intelligent Vehicle",
+      "alternate term for AV"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 18,
+    "top_1_guess": 8,
+    "top_3_guess": 8,
+    "top_1_reason": 49,
+    "top_3_reason": 14
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.5319719891192393e-231,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.3610062003135681,
+    "top_1_guess": 0.5777263641357422,
+    "top_3_guess": 0.5777263641357422,
+    "top_1_reason": 0.35503706336021423,
+    "top_3_reason": 0.4894558787345886
+  }
+}

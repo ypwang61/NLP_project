@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "parallel negative sampling (GPU)",
+  "ocr": "parallel negative sampling",
+  "result_list": [
+    [
+      "Parallel negative sampling",
+      " context indicates GPU-based processing phase"
+    ],
+    [
+      "Negative sample generation",
+      " related to the function of this stage in the system"
+    ],
+    [
+      "Asynchronous GPU task",
+      " inferring from the asynchronous nature of system components"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 7,
+    "top_3_guess": 7,
+    "top_1_reason": 35,
+    "top_3_reason": 35
+  },
+  "bleu_score": {
+    "ocr": 8.751273976943354e-78,
+    "top_1_guess": 8.121328445417258e-155,
+    "top_3_guess": 8.121328445417258e-155,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7001931667327881,
+    "top_1_guess": 0.7001931667327881,
+    "top_3_guess": 0.7001931667327881,
+    "top_1_reason": 0.5211354494094849,
+    "top_3_reason": 0.5211354494094849
+  }
+}

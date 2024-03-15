@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "thread cache",
+  "ocr": "S1read cache.",
+  "result_list": [
+    [
+      "thread cache",
+      " term is similar to \"thread-local cache\" mentioned in the text"
+    ],
+    [
+      "shred cache",
+      " possible misspelling in OCR recognition"
+    ],
+    [
+      "spread cache",
+      " potential confusion due to OCR error"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 50,
+    "top_3_reason": 32
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5088783502578735,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.5040969848632812,
+    "top_3_reason": 0.5040969848632812
+  }
+}

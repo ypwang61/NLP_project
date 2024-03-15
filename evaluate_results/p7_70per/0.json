@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Resizer Model",
+  "ocr": "Resizer Mode",
+  "result_list": [
+    [
+      "Resizer Model",
+      "the text corresponds to the component in the framework diagram"
+    ],
+    [
+      "Image Resizer",
+      "general term for the module based on context"
+    ],
+    [
+      "Scaling Module",
+      "possible alternative term for resizing function"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 55,
+    "top_3_reason": 37
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.8697680234909058,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.4608649015426636,
+    "top_3_reason": 0.6144137978553772
+  }
+}

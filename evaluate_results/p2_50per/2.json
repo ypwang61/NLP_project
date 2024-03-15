@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "collaboration strategy",
+  "ocr": "coll1inlfiol1on snrQlzvJ",
+  "result_list": [
+    [
+      "partial online augmentation",
+      "augmentation text suggests a computational process possibly related to online data augmentation"
+    ],
+    [
+      "partially online sampling",
+      "the structure of the word looks similar to sampling which could relate to data or network sampling methods"
+    ],
+    [
+      "parallel online augmentation",
+      "considering the parallel computing context and partial visibility of letters that could form the word parallel)."
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 15,
+    "top_1_guess": 22,
+    "top_3_guess": 20,
+    "top_1_reason": 80,
+    "top_3_reason": 80
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.27456894516944885,
+    "top_1_guess": 0.47263070940971375,
+    "top_3_guess": 0.528576672077179,
+    "top_1_reason": 0.47390246391296387,
+    "top_3_reason": 0.47390246391296387
+  }
+}

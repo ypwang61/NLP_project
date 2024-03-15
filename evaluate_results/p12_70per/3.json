@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Train NN with Pseudo-labels Predictions with NN Parameters",
+  "ocr": "Tmin NN with Pdeudoiebeis",
+  "result_list": [
+    [
+      "Train NN with Pseudo-labels",
+      " technical context suggests training a neural network with pseudo-labels"
+    ],
+    [
+      "Obtain NN parameters from Tmin",
+      " Tmin may refer to a minimal training process obtaining network parameters"
+    ],
+    [
+      "Optimize with Constraints",
+      " refers to optimizing the pseudo-labels or parameters with constraints"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 37,
+    "top_1_guess": 31,
+    "top_3_guess": 31,
+    "top_1_reason": 54,
+    "top_3_reason": 40
+  },
+  "bleu_score": {
+    "ocr": 3.506226123743032e-155,
+    "top_1_guess": 0.36787944117144233,
+    "top_3_guess": 0.36787944117144233,
+    "top_1_reason": 1.0518351895246305e-231,
+    "top_3_reason": 1.0518351895246305e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.5154316425323486,
+    "top_1_guess": 0.828414261341095,
+    "top_3_guess": 0.828414261341095,
+    "top_1_reason": 0.6104837656021118,
+    "top_3_reason": 0.6104837656021118
+  }
+}

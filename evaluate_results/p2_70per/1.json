@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "parallel online augmentation (CPU)",
+  "ocr": "parallel online angmentation (CPU)",
+  "result_list": [
+    [
+      "parallel online augmentation",
+      " indicated by the flow and positioning between the GPU and CPU graphics"
+    ],
+    [
+      "CPU",
+      " as the highlighted component relates to the computing resource used for augmentation"
+    ],
+    [
+      "network data flow",
+      " inferred from the arrows connecting the boxes which suggest a flow of information or data processing"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 6,
+    "top_3_guess": 6,
+    "top_1_reason": 56,
+    "top_3_reason": 56
+  },
+  "bleu_score": {
+    "ocr": 1.0547686614863434e-154,
+    "top_1_guess": 8.751273976943354e-78,
+    "top_3_guess": 8.751273976943354e-78,
+    "top_1_reason": 0,
+    "top_3_reason": 9.788429383461836e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.8992007374763489,
+    "top_1_guess": 0.7767669558525085,
+    "top_3_guess": 0.7767669558525085,
+    "top_1_reason": 0.41525405645370483,
+    "top_3_reason": 0.47070953249931335
+  }
+}

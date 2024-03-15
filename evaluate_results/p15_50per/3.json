@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "similarity",
+  "ocr": "the cnflnrtrv",
+  "result_list": [
+    [
+      "maximize the similarity",
+      " the context discusses focusing on maximizing the similarity between the feature vectors"
+    ],
+    [
+      "feature summarization",
+      " the whole architecture deals with summarizing features from observed and full videos for prediction"
+    ],
+    [
+      "similarity measure",
+      " as the text refers to a function measuring similarity between feature vectors"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 11,
+    "top_1_guess": 13,
+    "top_3_guess": 8,
+    "top_1_reason": 78,
+    "top_3_reason": 68
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.384292958842266e-231,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 9.788429383461836e-232,
+    "top_3_reason": 9.788429383461836e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.3468439280986786,
+    "top_1_guess": 0.5872752666473389,
+    "top_3_guess": 0.5872752666473389,
+    "top_1_reason": 0.3964131772518158,
+    "top_3_reason": 0.4196007251739502
+  }
+}

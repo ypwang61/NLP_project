@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "IG",
+  "ocr": "Fanotaat Bchomianedi",
+  "result_list": [
+    [
+      "Guided GradCAM",
+      " the red circled image is likely illustrating the pixel-level explanations for a feature in the input image corresponding to a class score gradient visualization"
+    ],
+    [
+      "Gradient \u2299 Input",
+      " possible due to the similarity of the example next to it which could be an example of element-wise product of input and gradient visualization"
+    ],
+    [
+      "SmoothGrad",
+      " since it could be a visualization that averages multiple noisy inputs for a cleaner saliency map"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 20,
+    "top_1_guess": 13,
+    "top_3_guess": 9,
+    "top_1_reason": 161,
+    "top_3_reason": 97
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.391206294298172,
+    "top_1_guess": 0.4258154034614563,
+    "top_3_guess": 0.4322517514228821,
+    "top_1_reason": 0.3290117681026459,
+    "top_3_reason": 0.3290117681026459
+  }
+}

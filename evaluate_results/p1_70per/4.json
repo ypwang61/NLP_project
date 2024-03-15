@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Quantum dynamic routing",
+  "ocr": "Qusntum dyrnsmic rouring",
+  "result_list": [
+    [
+      "Quantum dynamic routing",
+      " reason: matching the term \"Quantum dynamic routing\" from the caption with the red circled area that likely labels this process in the diagram"
+    ],
+    [
+      "Dynamic routing algorithm",
+      " reason: abbreviation could represent the dynamic routing aspect of the QCapsNet framework"
+    ],
+    [
+      "Routing process",
+      " reason: general term for the process taking place in the circled area related to the dynamic progression of data through the layers"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 4,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 119,
+    "top_3_reason": 70
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.2213386697554703e-77,
+    "top_3_guess": 1.2213386697554703e-77,
+    "top_1_reason": 8.319100378795605e-232,
+    "top_3_reason": 5.233427736988301e-155
+  },
+  "Bert_sim": {
+    "ocr": 0.3835386037826538,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.5094027519226074,
+    "top_3_reason": 0.5394977927207947
+  }
+}

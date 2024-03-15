@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Word Embedding",
+  "ocr": "Word Embedding.",
+  "result_list": [
+    [
+      "Word Embedding",
+      " its the label for this part of the diagram and matches the architecture described in the paper"
+    ],
+    [
+      "Input Embedding",
+      " could be a synonym for 'Word Embedding' in some contexts"
+    ],
+    [
+      "Feature Extraction",
+      " as word embedding can be a form of feature extraction in NLP"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 85,
+    "top_3_reason": 43
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.87382572889328,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.3519127666950226,
+    "top_3_reason": 0.667868435382843
+  }
+}

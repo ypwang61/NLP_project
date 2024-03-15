@@ -1,0 +1,1 @@
+fig. number-tk prnn architecture. the network takes two input s, t in parallel and fuses them after passing word embedding and recurrent layers.

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Previous layers",
+  "ocr": "likelylottb jaulegf",
+  "result_list": [
+    [
+      "Quantum States",
+      " the diagram indicates a representation of quantum states as they relate to the QCapsNets"
+    ],
+    [
+      "Sub-Quantum Neural Network Output",
+      " context of the figure suggests output from a sub-network within the QCapsNets framework"
+    ],
+    [
+      "Hilbert Space Representation",
+      " since quantum states are represented in Hilbert space as per the description, this could be a representation of said space"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 14,
+    "top_1_guess": 11,
+    "top_3_guess": 11,
+    "top_1_reason": 78,
+    "top_3_reason": 78
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.35712340474128723,
+    "top_1_guess": 0.4868890047073364,
+    "top_3_guess": 0.4868890047073364,
+    "top_1_reason": 0.39261218905448914,
+    "top_3_reason": 0.39803099632263184
+  }
+}

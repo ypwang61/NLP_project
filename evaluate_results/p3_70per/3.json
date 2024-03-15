@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "RNNTDropout",
+  "ocr": "RNN+Droupout",
+  "result_list": [
+    [
+      "RNN+Dropout",
+      " it is a label for a model component"
+    ],
+    [
+      "Recurrent Neural Network with Dropout",
+      " describes the process within the component"
+    ],
+    [
+      "Layer/Block name",
+      " common way to refer to parts of a neural network architecture"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 1,
+    "top_3_guess": 1,
+    "top_1_reason": 31,
+    "top_3_reason": 31
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5403195023536682,
+    "top_1_guess": 0.5759152173995972,
+    "top_3_guess": 0.5759152173995972,
+    "top_1_reason": 0.4036010801792145,
+    "top_3_reason": 0.4036010801792145
+  }
+}

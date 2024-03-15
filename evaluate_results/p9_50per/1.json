@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "CompOFA-Proxyless ofa-Proxyless",
+  "ocr": "CompOFA-Prnxylass OFA-Proxyless.",
+  "result_list": [
+    [
+      "CompOFA-Proxyless",
+      " the label appears to mention the CompOFA approach using a Proxyless architecture"
+    ],
+    [
+      "OFA-Proxyless",
+      " this could be the contrasting model configuration using OFA with a Proxyless architecture"
+    ],
+    [
+      "CDF Comparison",
+      " the content might be discussing the comparative CDF results between the two architectures"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 14,
+    "top_3_guess": 14,
+    "top_1_reason": 61,
+    "top_3_reason": 61
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 6.702145341854094e-232,
+    "top_3_guess": 6.702145341854094e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7952084541320801,
+    "top_1_guess": 0.8930296301841736,
+    "top_3_guess": 0.8930296301841736,
+    "top_1_reason": 0.5973606705665588,
+    "top_3_reason": 0.5973606705665588
+  }
+}

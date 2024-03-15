@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "parallel negative sampling (GPU)",
+  "ocr": "partially freennciweonnmping.",
+  "result_list": [
+    [
+      "partially connected component",
+      "graph thematic context),"
+    ],
+    [
+      "partial online augmentation",
+      "aligns with augmentation explanation),"
+    ],
+    [
+      "parallel connectivity augmentation",
+      "considering technical jargon)."
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 21,
+    "top_1_guess": 23,
+    "top_3_guess": 20,
+    "top_1_reason": 24,
+    "top_3_reason": 24
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 9.918892480173173e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4068673253059387,
+    "top_1_guess": 0.48315367102622986,
+    "top_3_guess": 0.5155237317085266,
+    "top_1_reason": 0.41930091381073,
+    "top_3_reason": 0.41930091381073
+  }
+}

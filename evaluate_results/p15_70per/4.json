@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Classifier",
+  "ocr": "Blessifier",
+  "result_list": [
+    [
+      "Classifier",
+      " common term in machine learning for a model that categorizes or labels input data"
+    ],
+    [
+      "Classify",
+      " a verb indicating the action being performed by the system, which aligns with the context of action prediction mentioned in the text"
+    ],
+    [
+      "Classification Network",
+      " an alternative term describing a network whose purpose is to classify data"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 75,
+    "top_3_reason": 68
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.821831989445342e-231,
+    "top_3_guess": 1.821831989445342e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5598275661468506,
+    "top_1_guess": 1.000000238418579,
+    "top_3_guess": 1.000000238418579,
+    "top_1_reason": 0.39570197463035583,
+    "top_3_reason": 0.39922672510147095
+  }
+}

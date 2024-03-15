@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "SoftMax",
+  "ocr": "SoftMax",
+  "result_list": [
+    [
+      "SoftMax layer",
+      " final output layer in architecture"
+    ],
+    [
+      "Classification layer",
+      " commonly SoftMax is used for classification in neural networks"
+    ],
+    [
+      "Output layer",
+      " in the context of neural networks, this often refers to the final layer that makes classification decisions"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 6,
+    "top_3_guess": 6,
+    "top_1_reason": 32,
+    "top_3_reason": 32
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 1.5319719891192393e-231,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0518351895246305e-231
+  },
+  "Bert_sim": {
+    "ocr": 1.0,
+    "top_1_guess": 0.6392800807952881,
+    "top_3_guess": 0.6392800807952881,
+    "top_1_reason": 0.3759016692638397,
+    "top_3_reason": 0.3759016692638397
+  }
+}

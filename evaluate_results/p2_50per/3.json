@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "sample pools",
+  "ocr": "setrlple tootj.",
+  "result_list": [
+    [
+      "parallel online augmentation",
+      "term aligns with system description and surrounding context),"
+    ],
+    [
+      "graph augmentation",
+      "related to visual representation of networks),"
+    ],
+    [
+      "asynchronous augmentation",
+      "associated with asynchronous operations mentioned)."
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 8,
+    "top_1_guess": 23,
+    "top_3_guess": 16,
+    "top_1_reason": 54,
+    "top_3_reason": 39
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.3860580325126648,
+    "top_1_guess": 0.45130449533462524,
+    "top_3_guess": 0.4946708083152771,
+    "top_1_reason": 0.3786660134792328,
+    "top_3_reason": 0.3786660134792328
+  }
+}

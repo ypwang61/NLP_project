@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "FISTA-b",
+  "ocr": "(CNGTA)",
+  "result_list": [
+    [
+      "Diagonally Learned SGP",
+      " the content suggests this is a comparison of different methods and \"o\" is likely intended to be \"d\""
+    ],
+    [
+      "Diag-Learned SGP",
+      " \"Diag\" is commonly used as an abbreviation for \"Diagonal\" in the context of algorithms"
+    ],
+    [
+      "Diag-Learned Sparse GP",
+      " \"Sparse GP\" could be another way to describe the spread Gaussian Process in a sparse-view CT context"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 22,
+    "top_3_guess": 16,
+    "top_1_reason": 99,
+    "top_3_reason": 86
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.47288110852241516,
+    "top_1_guess": 0.45053011178970337,
+    "top_3_guess": 0.5366860032081604,
+    "top_1_reason": 0.392203688621521,
+    "top_3_reason": 0.392203688621521
+  }
+}

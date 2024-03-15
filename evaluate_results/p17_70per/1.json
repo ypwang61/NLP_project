@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Lgan",
+  "ocr": "Lguil",
+  "result_list": [
+    [
+      "GAN",
+      " common abbreviation for Generative Adversarial Network"
+    ],
+    [
+      "GAN",
+      " typical term used with discriminators in machine learning"
+    ],
+    [
+      "GAN",
+      " often linked with loss functions in adversarial training"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 4,
+    "top_3_guess": 4,
+    "top_1_reason": 53,
+    "top_3_reason": 53
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6039458513259888,
+    "top_1_guess": 0.5287813544273376,
+    "top_3_guess": 0.5287813544273376,
+    "top_1_reason": 0.30330872535705566,
+    "top_3_reason": 0.35093194246292114
+  }
+}

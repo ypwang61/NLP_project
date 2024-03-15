@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Identity",
+  "ocr": "Rastnier.",
+  "result_list": [
+    [
+      "Classifier",
+      " it is near the final step in the process flow"
+    ],
+    [
+      "Aggregation",
+      " it refers to combining information"
+    ],
+    [
+      "Prediction",
+      " it is the outcome of the process that the diagram describes"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 8,
+    "top_1_guess": 9,
+    "top_3_guess": 7,
+    "top_1_reason": 41,
+    "top_3_reason": 31
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4184325039386749,
+    "top_1_guess": 0.6296477913856506,
+    "top_3_guess": 0.7581796050071716,
+    "top_1_reason": 0.4142514765262604,
+    "top_3_reason": 0.4698465168476105
+  }
+}

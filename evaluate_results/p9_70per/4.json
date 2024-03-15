@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "24 Classif. 26 Error (%) 100",
+  "ocr": "Classif. Error (%)",
+  "result_list": [
+    [
+      "Classification Error (%)",
+      " It is common to label axes with the type of metric they represent"
+    ],
+    [
+      "Top-1 Error (%)",
+      " The context of the paper indicates the analysis focuses on top-1 accuracy error rates"
+    ],
+    [
+      "Accuracy Loss (%)",
+      " Error could be synonymous with loss in accuracy in this context"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 10,
+    "top_1_guess": 14,
+    "top_3_guess": 14,
+    "top_1_reason": 55,
+    "top_3_reason": 54
+  },
+  "bleu_score": {
+    "ocr": 4.6144530849934175e-155,
+    "top_1_guess": 4.1696290531635676e-155,
+    "top_3_guess": 4.1696290531635676e-155,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0003688322288243e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.7600897550582886,
+    "top_1_guess": 0.6480000019073486,
+    "top_3_guess": 0.6480000019073486,
+    "top_1_reason": 0.28161007165908813,
+    "top_3_reason": 0.4142620861530304
+  }
+}

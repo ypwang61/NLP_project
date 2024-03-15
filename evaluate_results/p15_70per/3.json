@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "similarity",
+  "ocr": "Mexiinte the similarity",
+  "result_list": [
+    [
+      "maximize the similarity",
+      " the context refers to maximizing similarity between Zt and z to transfer information from the full video to the observed feature vector"
+    ],
+    [
+      "feature summarization",
+      " the diagram shows a summarizing network component which is related to the feature summarization process as described in the paper"
+    ],
+    [
+      "transfer information",
+      " the surrounding text and the paper's goal is to transfer information from the full video to the observed feature vector to predict future video segments"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 13,
+    "top_1_guess": 13,
+    "top_3_guess": 13,
+    "top_1_reason": 126,
+    "top_3_reason": 121
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 1.384292958842266e-231,
+    "top_3_guess": 1.384292958842266e-231,
+    "top_1_reason": 8.412065649527267e-232,
+    "top_3_reason": 8.412065649527267e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.48040321469306946,
+    "top_1_guess": 0.5872752666473389,
+    "top_3_guess": 0.5872752666473389,
+    "top_1_reason": 0.3955608606338501,
+    "top_3_reason": 0.3955608606338501
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Convexity",
+  "ocr": "Convexity",
+  "result_list": [
+    [
+      "Check convexity",
+      " it's a logical step in the flowchart and aligns with reference to convexity check in the paper"
+    ],
+    [
+      "Move to new point",
+      " the flowchart indicates steps moving through different focal points which could also mean new axial positions"
+    ],
+    [
+      "Local focus score",
+      " as it follows the CNN which calculates the blurriness score that could be related to local focus"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 6,
+    "top_3_guess": 6,
+    "top_1_reason": 87,
+    "top_3_reason": 87
+  },
+  "bleu_score": {
+    "ocr": 1.821831989445342e-231,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 1.0,
+    "top_1_guess": 0.8325729370117188,
+    "top_3_guess": 0.8325729370117188,
+    "top_1_reason": 0.49287453293800354,
+    "top_3_reason": 0.49287453293800354
+  }
+}

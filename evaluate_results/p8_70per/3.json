@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Projected Face",
+  "ocr": "Projecttd Face",
+  "result_list": [
+    [
+      "Projected Face",
+      " the text seems to be a label for an image output that corresponds to the projected face from the 3D reconstruction"
+    ],
+    [
+      "3DMM Scan",
+      " a misinterpretation of the context as the system aims to work without 3D ground truth scans"
+    ],
+    [
+      "Ground Truth",
+      " incorrect since the method operates without the need for ground truth data"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 103,
+    "top_3_reason": 66
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.669344425201416,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.4922655522823334,
+    "top_3_reason": 0.4922655522823334
+  }
+}

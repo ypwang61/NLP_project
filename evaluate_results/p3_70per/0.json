@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "RNN+Dropout",
+  "ocr": "RNN+Droutout.",
+  "result_list": [
+    [
+      "RNN + Dropout",
+      " This is the label of a process block in the architecture diagram"
+    ],
+    [
+      "Recurrent Neural Network + Dropout",
+      " RNN is often accompanied by dropout in neural network diagrams"
+    ],
+    [
+      "Recurrent Layer with Dropout",
+      " Referring to the recurrent layer with dropout regularization in neural networks"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 2,
+    "top_3_guess": 2,
+    "top_1_reason": 61,
+    "top_3_reason": 54
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.7066395878791809,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.351245254278183,
+    "top_3_reason": 0.5965474843978882
+  }
+}

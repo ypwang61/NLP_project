@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Reduce",
+  "ocr": ": Reduce",
+  "result_list": [
+    [
+      "Local Reduce",
+      "it's labeled at a stage in the Blaze MapReduce where reduction happens to be more localized compared to the original workflow"
+    ],
+    [
+      "Eager Reduction",
+      "because this term is used in the given caption to describe the optimization process that occurs before the Shuffle stage"
+    ],
+    [
+      "Machine-Local Reduce",
+      "referring to the context that reduction happens on the machine before being shuffled across machines"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 2,
+    "top_1_guess": 6,
+    "top_3_guess": 6,
+    "top_1_reason": 119,
+    "top_3_reason": 95
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.5319719891192393e-231,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6917263269424438,
+    "top_1_guess": 0.7212200164794922,
+    "top_3_guess": 0.7212200164794922,
+    "top_1_reason": 0.36334970593452454,
+    "top_3_reason": 0.38734036684036255
+  }
+}

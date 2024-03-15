@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Train NN with Pseudo-labels Predictions with NN Parameters",
+  "ocr": "Tmir NN wth Pseudo[laber",
+  "result_list": [
+    [
+      "Training NN with Pseudo-Labeler",
+      "The intended text probably describes components used in the second stage for training a neural network using pseudo labels"
+    ],
+    [
+      "Training Neural Network with Pseudo Labels",
+      "This is a likely correction of the garbled text to convey the use of pseudo labels in training"
+    ],
+    [
+      "Train NN with Pseudo-Labeler",
+      "A simplified guess emphasizing the training process of the neural network with the assistance of a pseudo labeler"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 37,
+    "top_1_guess": 34,
+    "top_3_guess": 31,
+    "top_1_reason": 94,
+    "top_3_reason": 73
+  },
+  "bleu_score": {
+    "ocr": 4.739132419722992e-232,
+    "top_1_guess": 3.506226123743032e-155,
+    "top_3_guess": 3.177068861910546e-78,
+    "top_1_reason": 0,
+    "top_3_reason": 8.844844403089351e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.5294404625892639,
+    "top_1_guess": 0.7814579010009766,
+    "top_3_guess": 0.7814579010009766,
+    "top_1_reason": 0.481634259223938,
+    "top_3_reason": 0.5170236825942993
+  }
+}

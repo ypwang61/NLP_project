@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Quantum dynamic routing",
+  "ocr": "Aavlmum Alvenianal Tonnralj.",
+  "result_list": [
+    [
+      "Quantum states",
+      " Reason: It looks like a reference to the quantum states represented in the Hilbert space as mentioned in the caption"
+    ],
+    [
+      "SubQNN outputs",
+      " Reason: These are likely the outputs from the sub-quantum neural networks within capsules"
+    ],
+    [
+      "Feature encoding",
+      " Reason: The process could involve encoding features of entities as described"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 21,
+    "top_1_guess": 13,
+    "top_3_guess": 13,
+    "top_1_reason": 102,
+    "top_3_reason": 66
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 9.291879812217675e-232,
+    "top_3_guess": 9.291879812217675e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.3354904055595398,
+    "top_1_guess": 0.6480568647384644,
+    "top_3_guess": 0.6480568647384644,
+    "top_1_reason": 0.4111047089099884,
+    "top_3_reason": 0.4484342336654663
+  }
+}

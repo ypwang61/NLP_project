@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Natural Language Generation (NLG)",
+  "ocr": "NaugaLoupturae Peparnna (ND)",
+  "result_list": [
+    [
+      "Natural Language Understanding",
+      " visually similar and relevant to dialog system"
+    ],
+    [
+      "Natural Language Generation",
+      " a typical component but less likely in this position"
+    ],
+    [
+      "Dialog State Tracking",
+      " potentially relevant but not matching the usual pipeline order"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 20,
+    "top_1_guess": 12,
+    "top_3_guess": 6,
+    "top_1_reason": 35,
+    "top_3_reason": 35
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 8.121328445417258e-155,
+    "top_3_guess": 8.751273976943354e-78,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4283916652202606,
+    "top_1_guess": 0.5873138308525085,
+    "top_3_guess": 0.6436548233032227,
+    "top_1_reason": 0.3726217448711395,
+    "top_3_reason": 0.3726217448711395
+  }
+}

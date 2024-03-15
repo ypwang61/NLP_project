@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Original Resolution",
+  "ocr": "Resizer Madel",
+  "result_list": [
+    [
+      "Input Image",
+      " it's the logical entry point for the framework"
+    ],
+    [
+      "Original Image",
+      " since it's being fed into the Resizer Model, it's likely the initial state of the image before processing"
+    ],
+    [
+      "Source Image",
+      " this could be an alternative term for the input to a system"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 16,
+    "top_1_guess": 18,
+    "top_3_guess": 10,
+    "top_1_reason": 39,
+    "top_3_reason": 39
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5060728192329407,
+    "top_1_guess": 0.6001688241958618,
+    "top_3_guess": 0.7799954414367676,
+    "top_1_reason": 0.44238731265068054,
+    "top_3_reason": 0.44238731265068054
+  }
+}

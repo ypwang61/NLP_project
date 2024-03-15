@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Blaze MapReduce",
+  "ocr": "Blaze MapReduce.",
+  "result_list": [
+    [
+      "Local cache",
+      " Reduction happens on the same machine before shuffling"
+    ],
+    [
+      "Thread-local cache",
+      " New values are stored in cache accessible to a thread, not the entire machine"
+    ],
+    [
+      "Reduction optimization",
+      " Reduction step is optimized in Blaze MapReduce scheme"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 12,
+    "top_3_guess": 12,
+    "top_1_reason": 49,
+    "top_3_reason": 39
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 6.484592771860512e-155
+  },
+  "Bert_sim": {
+    "ocr": 0.8559733033180237,
+    "top_1_guess": 0.47407016158103943,
+    "top_3_guess": 0.47407016158103943,
+    "top_1_reason": 0.39234474301338196,
+    "top_3_reason": 0.5966860055923462
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Masked Self Attention",
+  "ocr": "Meccket Seuenstntion",
+  "result_list": [
+    [
+      "Masked Self-Attention",
+      " closely matches the description in text and follows standard Transformer architecture"
+    ],
+    [
+      "Cross-Attention",
+      " as it's a component in the decoder following the self-attention layer"
+    ],
+    [
+      "Add & Norm",
+      " because each attention operation is followed by a residual connection and layer normalization"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 10,
+    "top_1_guess": 1,
+    "top_3_guess": 1,
+    "top_1_reason": 74,
+    "top_3_reason": 54
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 9.291879812217675e-232,
+    "top_3_guess": 9.291879812217675e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.40445879101753235,
+    "top_1_guess": 0.7630820274353027,
+    "top_3_guess": 0.7630820274353027,
+    "top_1_reason": 0.37781497836112976,
+    "top_3_reason": 0.4510393440723419
+  }
+}

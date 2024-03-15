@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Local CNN",
+  "ocr": "L. precr Eualh",
+  "result_list": [
+    [
+      "Local CNN",
+      " It is the logical step following the policy network which selects the regions for feature extraction, and the diagram suggests the flow of processing to a CNN designed for local features"
+    ],
+    [
+      "Feature Extraction",
+      " This follows the selection of image regions so the next step is typically extracting features from these selected regions, which would be the role of a local CNN in the context of the diagram"
+    ],
+    [
+      "High-capacity CNN",
+      " The diagram and the accompanying text reference a high-capacity CNN to process selected image patches, which implies that this part of the diagram refers to a more powerful CNN applicable after region selection"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 12,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 179,
+    "top_3_reason": 179
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 7.720899511627474e-232,
+    "top_3_reason": 7.720899511627474e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.37653592228889465,
+    "top_1_guess": 0.9999999403953552,
+    "top_3_guess": 0.9999999403953552,
+    "top_1_reason": 0.42448434233665466,
+    "top_3_reason": 0.42448434233665466
+  }
+}

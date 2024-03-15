@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Global feature map classods appod, clsgare abbgash CC, FC",
+  "ocr": "(n1-n8, bb_gd) (H3, CC)",
+  "result_list": [
+    [
+      "Global feature map",
+      " context in the image indicates this relates to the overall feature extraction process in the \"Ours\" method"
+    ],
+    [
+      "Bounding box information",
+      " given the context of object detection and the diagram structure, this could refer to spatial features used for OD/GD"
+    ],
+    [
+      "Reasoning post-processing",
+      " this term is used in the text and could relate to the process following feature extraction"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 50,
+    "top_1_guess": 39,
+    "top_3_guess": 39,
+    "top_1_reason": 83,
+    "top_3_reason": 75
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.6529021479918435e-78,
+    "top_3_guess": 1.6529021479918435e-78,
+    "top_1_reason": 8.972141065609098e-232,
+    "top_3_reason": 9.109159947227211e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.49800756573677063,
+    "top_1_guess": 0.6113660335540771,
+    "top_3_guess": 0.6113660335540771,
+    "top_1_reason": 0.42067137360572815,
+    "top_3_reason": 0.4727434813976288
+  }
+}

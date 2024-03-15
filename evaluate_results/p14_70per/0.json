@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Hidden Layer",
+  "ocr": "Hlddv Ufyer.",
+  "result_list": [
+    [
+      "Hidden Layer",
+      " Context typical of graphical model architectures"
+    ],
+    [
+      "Latent Variables",
+      " Common terminology in machine learning for unobserved variables"
+    ],
+    [
+      "Hidden Features",
+      " Refers to the parts of the model not directly observable"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 43,
+    "top_3_reason": 43
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.448671817779541,
+    "top_1_guess": 1.0000001192092896,
+    "top_3_guess": 1.0000001192092896,
+    "top_1_reason": 0.41242551803588867,
+    "top_3_reason": 0.41503527760505676
+  }
+}

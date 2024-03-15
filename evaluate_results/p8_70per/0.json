@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Occluded Image",
+  "ocr": "Occhiltda lmtge.",
+  "result_list": [
+    [
+      "Occluded Image",
+      " it corresponds with the framework component addressing occlusion issues"
+    ],
+    [
+      "Input Image",
+      " as it seems to depict input that the model takes to handle occlusion"
+    ],
+    [
+      "Noisy/Occluded Input",
+      " acknowledging that the model works with both noisy and occluded images"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 8,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 64,
+    "top_3_reason": 59
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.47354990243911743,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.5137105584144592,
+    "top_3_reason": 0.6642840504646301
+  }
+}

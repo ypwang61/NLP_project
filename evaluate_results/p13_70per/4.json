@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "CNNs (Resnet-101)",
+  "ocr": "CNNs TReshe 201",
+  "result_list": [
+    [
+      "CNNs",
+      " Common abbreviation for convolutional neural networks"
+    ],
+    [
+      "Threshold",
+      " Likely term used in the context of decision-making or filtering in algorithms"
+    ],
+    [
+      "ResNet-50",
+      " A potential typo or misrecognition where 'ResNet-50', a type of CNN, is incorrectly read"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 6,
+    "top_1_guess": 13,
+    "top_3_guess": 10,
+    "top_1_reason": 48,
+    "top_3_reason": 48
+  },
+  "bleu_score": {
+    "ocr": 1.384292958842266e-231,
+    "top_1_guess": 6.702145341854094e-232,
+    "top_3_guess": 6.702145341854094e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.6257832050323486,
+    "top_1_guess": 0.6353181600570679,
+    "top_3_guess": 0.7331759333610535,
+    "top_1_reason": 0.36576953530311584,
+    "top_3_reason": 0.5256796479225159
+  }
+}

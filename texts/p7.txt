@@ -1,0 +1,1 @@
+figure number-tk our proposed framework for joint learning of the image resizer and recognition models.

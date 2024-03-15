@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "24 Classif. 26 Error (%) 100",
+  "ocr": "Classic. Error ( {e} )",
+  "result_list": [
+    [
+      "Classification Error",
+      " its the standard term used in graphs and it matches \"Classic. Error\""
+    ],
+    [
+      "Class Error",
+      " abbreviation of Classification Error sometimes used in graphs"
+    ],
+    [
+      "Classif. Error",
+      " possible abbreviation for Classification Error"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 13,
+    "top_1_guess": 18,
+    "top_3_guess": 14,
+    "top_1_reason": 61,
+    "top_3_reason": 41
+  },
+  "bleu_score": {
+    "ocr": 9.97486269044271e-232,
+    "top_1_guess": 2.0732986305800918e-232,
+    "top_3_guess": 2.4655814830110698e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0832677820940877e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.5620403289794922,
+    "top_1_guess": 0.495317280292511,
+    "top_3_guess": 0.6536775827407837,
+    "top_1_reason": 0.4134017527103424,
+    "top_3_reason": 0.45832180976867676
+  }
+}

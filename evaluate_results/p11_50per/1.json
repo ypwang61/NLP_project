@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Dialog Management (DM)",
+  "ocr": "Julaela Mchienaman (RN)",
+  "result_list": [
+    [
+      "Dialog Policy",
+      " it is logically positioned in the pipeline between DST and NLG in task-oriented dialog systems"
+    ],
+    [
+      "Policy Module",
+      " it could be another name used synonymously with Dialog Policy"
+    ],
+    [
+      "Action Selector",
+      " it often refers to the component that decides on the action or response in task-oriented systems"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 16,
+    "top_1_guess": 15,
+    "top_3_guess": 15,
+    "top_1_reason": 83,
+    "top_3_reason": 51
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 9.291879812217675e-232,
+    "top_3_guess": 9.291879812217675e-232,
+    "top_1_reason": 0,
+    "top_3_reason": 1.0244914152188952e-231
+  },
+  "Bert_sim": {
+    "ocr": 0.38075727224349976,
+    "top_1_guess": 0.6138094067573547,
+    "top_3_guess": 0.6138094067573547,
+    "top_1_reason": 0.47517138719558716,
+    "top_3_reason": 0.47517138719558716
+  }
+}

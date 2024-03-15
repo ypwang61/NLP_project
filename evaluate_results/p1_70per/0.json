@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Previous layers",
+  "ocr": "Previous layers",
+  "result_list": [
+    [
+      "Capsule",
+      " it depicts a single element in the capsule layers"
+    ],
+    [
+      "Qubit group",
+      " the circle might represent a group of qubits within the capsule"
+    ],
+    [
+      "Sub-quantum neural network",
+      " as the capsule contains a sub-QNN as per the caption"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 0,
+    "top_1_guess": 12,
+    "top_3_guess": 12,
+    "top_1_reason": 40,
+    "top_3_reason": 40
+  },
+  "bleu_score": {
+    "ocr": 1.491668146240062e-154,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 1.0518351895246305e-231,
+    "top_3_reason": 1.0518351895246305e-231
+  },
+  "Bert_sim": {
+    "ocr": 1.0000001192092896,
+    "top_1_guess": 0.5719830393791199,
+    "top_3_guess": 0.5719830393791199,
+    "top_1_reason": 0.43215370178222656,
+    "top_3_reason": 0.43215370178222656
+  }
+}

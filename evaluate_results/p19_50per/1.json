@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "ROI information",
+  "ocr": "ROT inforbirtion.",
+  "result_list": [
+    [
+      "ROI information",
+      " logical guess based on the context indicating that this area of the flowchart might relate to specific information about the region of interest"
+    ],
+    [
+      "Region of Interest details",
+      " general term used in such charts to denote further information or specifics about the selected area"
+    ],
+    [
+      "ROI specifications",
+      " the context suggests detail about the region of interest feature within the process"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 5,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 132,
+    "top_3_reason": 75
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 8.319100378795605e-232,
+    "top_3_reason": 9.109159947227211e-232
+  },
+  "Bert_sim": {
+    "ocr": 0.5128496289253235,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.41925713419914246,
+    "top_3_reason": 0.4392580986022949
+  }
+}

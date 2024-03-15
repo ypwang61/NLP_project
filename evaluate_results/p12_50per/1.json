@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Optimal Transport",
+  "ocr": "Optimal Trananoif",
+  "result_list": [
+    [
+      "Optimal Transport",
+      "It's a technique referenced in the first image's text indicating its use in pseudo labeling"
+    ],
+    [
+      "Second Stage Training",
+      "Refers to the latter part of the two-stage training framework discussed in the text"
+    ],
+    [
+      "Label Proportions",
+      "It relates to the constraints mentioned in the first image for the training framework"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 4,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 81,
+    "top_3_reason": 73
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.5780925154685974,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.4162216782569885,
+    "top_3_reason": 0.43197259306907654
+  }
+}

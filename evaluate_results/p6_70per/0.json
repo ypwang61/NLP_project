@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Blaze MapReduce",
+  "ocr": "lBlaze MapReduce",
+  "result_list": [
+    [
+      "Blaze MapReduce",
+      "text matched with caption and content"
+    ],
+    [
+      "MapReduce with eager reduction",
+      "related to the context of the optimization described"
+    ],
+    [
+      "Thread-local cache",
+      "referenced in the paper as a part of the eager reduction process"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 29,
+    "top_3_reason": 29
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.491668146240062e-154,
+    "top_3_guess": 1.491668146240062e-154,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.84112948179245,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.4238930344581604,
+    "top_3_reason": 0.4238930344581604
+  }
+}

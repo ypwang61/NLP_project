@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Output/Visible Layer",
+  "ocr": "X:naIV9ills 020.",
+  "result_list": [
+    [
+      "context unit",
+      " the circled text likely labels the context unit in the architecture"
+    ],
+    [
+      "stylistic features",
+      " given the caption, this might refer to the stylistic features controlled by the context unit"
+    ],
+    [
+      "Gating mechanism",
+      " it could represent the gating mechanism by which the context unit affects other parts of the model"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 16,
+    "top_1_guess": 18,
+    "top_3_guess": 16,
+    "top_1_reason": 58,
+    "top_3_reason": 58
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.33186978101730347,
+    "top_1_guess": 0.5659382939338684,
+    "top_3_guess": 0.5659382939338684,
+    "top_1_reason": 0.4192519187927246,
+    "top_3_reason": 0.4192519187927246
+  }
+}

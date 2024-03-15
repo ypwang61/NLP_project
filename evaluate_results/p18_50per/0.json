@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Iteration VS. NMSE (dB)",
+  "ocr": "(dRamlim ny IIMBE (6b))",
+  "result_list": [
+    [
+      "Sampling by RIMBE",
+      " context clues"
+    ],
+    [
+      "Sampling by LMSE",
+      " similar letter shapes"
+    ],
+    [
+      "Sampling by IMSE",
+      " pattern matching"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 17,
+    "top_1_guess": 19,
+    "top_3_guess": 17,
+    "top_1_reason": 20,
+    "top_3_reason": 20
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.46951666474342346,
+    "top_1_guess": 0.45021113753318787,
+    "top_3_guess": 0.5552099943161011,
+    "top_1_reason": 0.49524685740470886,
+    "top_3_reason": 0.49524685740470886
+  }
+}

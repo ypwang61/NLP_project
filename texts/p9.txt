@@ -1,0 +1,1 @@
+figure number-tk cumulative distribution function of accuracies of model configurations common to ofa & compofa with the base architecture changed from mobilenetvnumber-tk to proxylessnas. despite the change in architecture, the same heuristic allows compofa to train to the same or marginally higher accuracies with half the training budget.

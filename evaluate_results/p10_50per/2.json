@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "GBP",
+  "ocr": "088",
+  "result_list": [
+    [
+      "Guided Backpropagation",
+      " It visually matches the style of the text in the first row and is one of the methods mentioned in the paper"
+    ],
+    [
+      "SmoothGrad",
+      " This corresponds to one of the methods covered in the explanatory text and could fit the obscured text format"
+    ],
+    [
+      "Integrated Gradients",
+      " Another relevant method mentioned which could potentially match the format if the OCR misread characters"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 3,
+    "top_1_guess": 20,
+    "top_3_guess": 9,
+    "top_1_reason": 108,
+    "top_3_reason": 105
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4327857196331024,
+    "top_1_guess": 0.3929568827152252,
+    "top_3_guess": 0.4605289697647095,
+    "top_1_reason": 0.303941547870636,
+    "top_3_reason": 0.3568318486213684
+  }
+}

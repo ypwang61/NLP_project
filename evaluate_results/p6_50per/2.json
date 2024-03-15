@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Reduce",
+  "ocr": "Siread cache.",
+  "result_list": [
+    [
+      "Thread cache",
+      " The red circle likely aims to represent a local cache for thread-level operations in the context of Blaze MapReduce"
+    ],
+    [
+      "Local Reduce",
+      " The diagram shows the reduce phase happening earlier in the process, which suggests that \"Reduce\" refers to a local reduce operation specific to Blaze MapReduce"
+    ],
+    [
+      "Reduce Operation",
+      " The term \"Reduce\" in MapReduce typically refers to the reduce operation; in Blaze MapReduce, this happens locally after mapping as part of eager reduction"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 9,
+    "top_1_guess": 8,
+    "top_3_guess": 6,
+    "top_1_reason": 110,
+    "top_3_reason": 110
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4543665647506714,
+    "top_1_guess": 0.5515895485877991,
+    "top_3_guess": 0.7212200164794922,
+    "top_1_reason": 0.35638192296028137,
+    "top_3_reason": 0.3801163136959076
+  }
+}

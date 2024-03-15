@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Future Video",
+  "ocr": "Pirtvl=tildec.",
+  "result_list": [
+    [
+      "Partial video",
+      " It is likely a high-level component label indicating the block processes a subsection of the video"
+    ],
+    [
+      "Partial sequence",
+      " This could refer to a segment of the video sequence being processed"
+    ],
+    [
+      "Part video",
+      " Similar to the first guess, it might represent the part of the video being analyzed"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 11,
+    "top_1_guess": 7,
+    "top_3_guess": 6,
+    "top_1_reason": 91,
+    "top_3_reason": 60
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.31528791785240173,
+    "top_1_guess": 0.5656274557113647,
+    "top_3_guess": 0.6198493838310242,
+    "top_1_reason": 0.39587974548339844,
+    "top_3_reason": 0.39587974548339844
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Output motion mask",
+  "ocr": "<ouqst anothrat.23",
+  "result_list": [
+    [
+      "output neurons",
+      " the logical progression in the network architecture indicates output"
+    ],
+    [
+      "final predictions",
+      " often the endpoint in a network architecture indicates the final output/predictions"
+    ],
+    [
+      "classification results",
+      " context implies these results come from the processing steps of the network"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 15,
+    "top_1_guess": 9,
+    "top_3_guess": 9,
+    "top_1_reason": 61,
+    "top_3_reason": 61
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.35882171988487244,
+    "top_1_guess": 0.6943999528884888,
+    "top_3_guess": 0.6943999528884888,
+    "top_1_reason": 0.45528411865234375,
+    "top_3_reason": 0.45528411865234375
+  }
+}

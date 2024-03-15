@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Joint Learning",
+  "ocr": "-OV L-OUNTI",
+  "result_list": [
+    [
+      "Low Resolution",
+      " it is likely indicating the quality of the image or the output of the resizer model"
+    ],
+    [
+      "Downscaled Image",
+      " the resizer model may produce a downscaled version of the input image which could be labeled as such"
+    ],
+    [
+      "Enhanced Image",
+      " the image might have been enhanced by the resizer model before input to the recognition model"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 12,
+    "top_1_guess": 12,
+    "top_3_guess": 12,
+    "top_1_reason": 76,
+    "top_3_reason": 76
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.32436585426330566,
+    "top_1_guess": 0.4364755153656006,
+    "top_3_guess": 0.6106614470481873,
+    "top_1_reason": 0.3607783913612366,
+    "top_3_reason": 0.38706594705581665
+  }
+}

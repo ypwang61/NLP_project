@@ -1,0 +1,1 @@
+figure number-tk overview of our hybrid system. the gray and yellow boxes correspond to the stages of network augmentation and embedding training respectively. the former is performed by parallel online augmentation on cpus, while the latter is performed by parallel negative sampling on gpus. the two stages are executed asynchronouslywith our collaboration strategy.

@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Global feature map classods appod, clsgare abbgash CC, FC",
+  "ocr": "cls bbuls uzdss B; OD / GD matching",
+  "result_list": [
+    [
+      "cls_bbod bbod",
+      "Reason: The pattern suggests class and bounding box notation"
+    ],
+    [
+      "local_features FC",
+      "Reason: \"FC\" could be mentioning feature classes which relate to local features"
+    ],
+    [
+      "global_feature_map",
+      "Reason: Mentioned in the corresponding schematic indicating it is a consolidated feature map for OD/GD"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 47,
+    "top_1_guess": 49,
+    "top_3_guess": 42,
+    "top_1_reason": 50,
+    "top_3_reason": 50
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 4.626154554768562e-233,
+    "top_1_reason": 0,
+    "top_3_reason": 4.65988169467104e-155
+  },
+  "Bert_sim": {
+    "ocr": 0.5655559301376343,
+    "top_1_guess": 0.5194875001907349,
+    "top_3_guess": 0.5207216143608093,
+    "top_1_reason": 0.42330610752105713,
+    "top_3_reason": 0.5036343932151794
+  }
+}

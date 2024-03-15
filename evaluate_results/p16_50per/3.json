@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Regression",
+  "ocr": "Penelsaico.",
+  "result_list": [
+    [
+      "Prediction",
+      " likely term in a model diagram"
+    ],
+    [
+      "Perception",
+      " possible label for a sensory input or DNN process"
+    ],
+    [
+      "Encoder",
+      " feasible component in a neural network architecture"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 7,
+    "top_1_guess": 7,
+    "top_3_guess": 5,
+    "top_1_reason": 27,
+    "top_3_reason": 27
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4070972800254822,
+    "top_1_guess": 0.8179391622543335,
+    "top_3_guess": 0.8179391622543335,
+    "top_1_reason": 0.43536174297332764,
+    "top_3_reason": 0.4497458040714264
+  }
+}

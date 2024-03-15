@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "IG",
+  "ocr": "Grablont Smoothbcad.",
+  "result_list": [
+    [
+      "Gradient",
+      " The correct term is likely 'Gradient' as it aligns with the context of explanation methods for model predictions"
+    ],
+    [
+      "SmoothGrad",
+      " This is another explanation method mentioned in the paper, which might be incorrectly labeled in the image"
+    ],
+    [
+      "Guided GradCAM",
+      " Since this method is also discussed in the paper, it might be a potential label for the image"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 20,
+    "top_1_guess": 8,
+    "top_3_guess": 8,
+    "top_1_reason": 112,
+    "top_3_reason": 94
+  },
+  "bleu_score": {
+    "ocr": 0,
+    "top_1_guess": 0,
+    "top_3_guess": 0,
+    "top_1_reason": 0,
+    "top_3_reason": 0
+  },
+  "Bert_sim": {
+    "ocr": 0.4636136293411255,
+    "top_1_guess": 0.3930644989013672,
+    "top_3_guess": 0.4322517514228821,
+    "top_1_reason": 0.3360534906387329,
+    "top_3_reason": 0.3360534906387329
+  }
+}

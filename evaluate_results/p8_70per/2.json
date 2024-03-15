@@ -1,0 +1,39 @@
+{
+  "ori_ocr_text": "Noisy image",
+  "ocr": "Noisy Image",
+  "result_list": [
+    [
+      "Noisy Image",
+      " the context indicates that examples of various input images including occluded and noisy ones are being presented, and the red circle is likely highlighting the noisy input"
+    ],
+    [
+      "Corrupted Image",
+      " given that the framework deals with noise in images, the red circle could indicate an example of a corrupted input image"
+    ],
+    [
+      "Distorted Image",
+      " considering the focus on noise and occlusion in the text, the circle could show a distorted image due to noise"
+    ]
+  ],
+  "edit_dis": {
+    "ocr": 1,
+    "top_1_guess": 1,
+    "top_3_guess": 1,
+    "top_1_reason": 164,
+    "top_3_reason": 102
+  },
+  "bleu_score": {
+    "ocr": 1.5319719891192393e-231,
+    "top_1_guess": 1.5319719891192393e-231,
+    "top_3_guess": 1.5319719891192393e-231,
+    "top_1_reason": 0,
+    "top_3_reason": 8.614911585158347e-232
+  },
+  "Bert_sim": {
+    "ocr": 1.0,
+    "top_1_guess": 1.0,
+    "top_3_guess": 1.0,
+    "top_1_reason": 0.47967079281806946,
+    "top_3_reason": 0.5067283511161804
+  }
+}
