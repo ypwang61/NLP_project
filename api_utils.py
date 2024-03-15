@@ -30,19 +30,21 @@ def get_prompts(caption_text):
     3. given several pictures with red circles, guess the content in the red circle.
     If the content is confusing, you should DEFINITELY discard the text and guess the content by the context! 
     You should first briefly output the summarization of step 2 in points within 200 tokens, then
-    ouput the top-3 possible contents in the circle in the format of i: (Guess words i, Reason i), 
+    ouput the top-3 possible contents in the circle in the format of i: (Guess words i, Reason i) separated by '@'
     and at last output the original confusing OCR recognition result.
-    Example format: Step2:...(summarization)  Step3: 1: (guess1, reason1), 2: (guess2, reason2), 3: (guess3, reason3). OCR: XXX.
-    Don't output any other contexts in step3, don't contain \' in the format. Don't have analysis on the top of output like 'based on ...'Let's begin.
-    Step 1: caption is {}.
-    Step 2: The pictures given except the last one is the reference from the paper.
-    Step 3: The last picture which have red circle is used in step 3.
+    Example format: Step2*** ...(summarization)  Step3*** 1: (guess1, reason1) @ 2: (guess2, reason2) @ 3: (guess3, reason3) OCR*** XXX.
+    Please rigorously follow the example format. Don't output any other contexts in step3, don't contain \' in the format. Don't have analysis on the top of output like 'based on ...'Let's begin.
+    Step1 caption is {}.
+    Step2 The pictures given except the last one is the reference from the paper.
+    Step3 The last picture which have red circle is used in step 3.
     """
 
     # 
 
-    filled_prompt = Basic_prompt.format(caption_text[0])
+    filled_prompt = Basic_prompt.format(caption_text)
     print(f'filled_prompt: {filled_prompt}')
+    
+    return filled_prompt
     
 
 def get_result_list_from_content(content):
@@ -61,7 +63,7 @@ def get_result_list_from_content(content):
     result_list = []
     
     # get the content of Step 3
-    content = content.split('Step3: ')[1]
+    content = content.split('Step3***')[1].strip()
     
     # # get corrected OCR
     # correct_ocr = content.split('Corrected OCR: ')[1].strip()
@@ -69,24 +71,26 @@ def get_result_list_from_content(content):
     # content = content.split('Corrected OCR: ')[0]
     
     # first get the 'OCR: XXX.' from the end of the content
-    ocr = content.split('OCR: ')[1].strip()
+    ocr = content.split('OCR***')[1].strip()
     print(f'######### ocr: {ocr}')
     
-    content = content.split('OCR: ')[0]
+    content = content.split('OCR***')[0]
     
+    print(f'content = {content}')
     
     # Parse the response content that contain '1: (guess, reason)'
-    for line in content.strip().split('\n'):
+    for line in content.strip().split('@'):
         if line:
             parts = line.split(":", 1)
+            print(f'line= {line}, parts = {parts}')
             if len(parts) == 2:
                 index_part, rest = parts
                 try:
                     # Split the rest on the comma and the first occurrence of '(' and ')'
                     # This assumes that the structure is always like '1: (text, text)'
                     # We then clean up the extracted text
-                    guess, reason = rest.strip().split(', ', 1)
-                    guess = guess.strip(" (")
+                    guess, reason = rest.strip().split(',', 1)
+                    guess = guess.strip("(")
                     reason = reason.strip(")")
                     result_list.append((guess, reason))
                 except ValueError:
@@ -143,6 +147,7 @@ def get_content_list(caption_text, reference_images_path, red_circle_recon_image
       }
     )
     
+    # print(f'content_list: {content_list}')
     return content_list
 
 

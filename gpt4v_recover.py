@@ -3,16 +3,18 @@
 import os
 import ipdb
 
-from evaluate import evaluate
+from my_evaluate import evaluate_fun
 
 from api_utils import run_GPT4V_api_one_step, get_result_list_from_content
+
+from final_report import final_report
 
 import json
 
 import argparse
 
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='')
 
 parser.add_argument('--ori_red_circles_dir', type=str, default='ori_red_circles', help='the directory containing the original red circles')
 parser.add_argument('--red_circles_dir', type=str, default='red_circles', help='the directory containing the red circles')
@@ -23,7 +25,8 @@ parser.add_argument('--red_circle_format', type=str, default='jpg', help='format
 
 # parser.add_argument('--dropout_circle_idx_list', nargs='+', type=int, default=None, help='the list of red circle indices to process, if None, process all red circles in the red_circles_dir')
 
-parser.add_argument('--dropout_pic_strength_name', nargs='+', type=str, default=None, help='the list of pic_strength_names to process, if None, process all pic_strength_names in the red_circles_dir')
+parser.add_argument('--select_pic_strength_name', nargs='+', type=str, default=None, help='the list of pic_strength_names to process, if None, process all pic_strength_names in the red_circles_dir')
+parser.add_argument('--drop_pic_strength_name', nargs='+', type=str, default=None, help='the list of pic_strength_names not to process, if None, process all pic_strength_names in the red_circles_dir')
 
 
 parser.add_argument('--device', type=str, default='cuda', help='the device for running the semantic similarity model')
@@ -93,8 +96,8 @@ def GPT4V_process(config):
   print(f'================================= get content list from adding prompts, pictures from reference and pictures from red_circle =================================')
   
   if config['debug'] != 0:
-    content = 'Step2:...(summarization)  Step3: 1: (Policy Network, The text is likely related to the policy network component of the system that selects specific regions of frames for further processing)\n2: (Crop, This could be indicating the action or step where an image patch is cropped from the frame)\n3: (Image Patch, The circle may contain a term or label indicating the image patch being processed or some detail about it). OCR: XXX.'
-  
+    # content = "Step2\n- The framework is designed for joint learning of image resizer and recognition models.\n- The resizer adapts to various models and improves classification performance.\n- It's not limited by pixel or perceptual loss, creating machine adaptive visual effects.\n- Enables down-scaling at arbitrary factors to find optimal resolution for tasks.\n- Extends application to image quality assessment (IQA), performing successfully.\n\nStep3\n1: (Learning, the text refers to the process the model undergoes as it adjusts the resolution and recognizes features in the image.)\n2: (Joint Learning, it references the joint optimization of the resizer and recognition models within the framework.)\n3: (Optimization, it could imply the process of enhancing the image for better compatibility with the recognition model.)\n\nOCR Joint Learning"
+    content = "'Step2*** System components: MSE for Mean Squared Error loss, E2E_ASR for End-to-End Automatic Speech Recognition, Fbank for filter bank feature extraction, and a Discriminator for distinguishing features. Enhancement network for noise suppression.\n\nStep3*** 1: (Lgan, common notation for adversarial loss) @ 2: (Lgen, variation of generative adversarial loss) @ 3: (Ladv, abbreviation for adversarial loss). OCR*** Lgui.'"
   else:
     response = run_GPT4V_api_one_step(caption_text, reference_images_path, red_circle_recon_image_path)
     print(response)
@@ -105,16 +108,32 @@ def GPT4V_process(config):
   
   result_list, ocr = get_result_list_from_content(content)
 
-  print(result_list)
-  print(ocr)
+  print(f'result_list = {result_list}')
+  print(f'ocr = {ocr}')
 
-  res_stats_dict = evaluate(result_list, ocr, ori_ocr_text, device=config['device'])
+  res_stats_dict = evaluate_fun(result_list, ocr, ori_ocr_text, device=config['device'])
   
   with open(evaluate_path, 'w') as f:
     json.dump(res_stats_dict, f, indent=2)
     print(f'write the evaluation results to {evaluate_path}')
     
   return res_stats_dict
+
+
+#  res_stats_dict = {
+#     'ori_ocr_text': ori_ocr_text,
+#     'ocr': ocr,
+#     'result_list': result_list,
+#     }
+
+#     for name in EVALUATE_NAMES:
+#         res_stats_dict[name] = {
+#             'ocr': ocr_eval[name],
+#             'top_1_guess': guess_stats_dict[name][0],
+#             'top_3_guess': guess_top_n_values_dict[name],
+#             'top_1_reason': reason_stats_dict[name][0],
+#             'top_3_reason': reason_top_n_values_dict[name],
+#         }
 
 
 
@@ -126,11 +145,15 @@ def main(args):
   red_circles_dir = config['red_circles_dir']
   pic_strength_names = os.listdir(red_circles_dir)
   
-  final_list = []
+  final_list = {}
   for pic_strength_name in pic_strength_names: # for each Figure task
     
-    if config['dropout_pic_strength_name'] is not None and pic_strength_name not in config['dropout_pic_strength_name']:
+    if config['select_pic_strength_name'] is not None and pic_strength_name not in config['select_pic_strength_name']:
       continue
+    
+    if config['drop_pic_strength_name'] is not None and pic_strength_name in config['drop_pic_strength_name']:
+      continue
+    
     
     pic_strength_dir = os.path.join(red_circles_dir, pic_strength_name)
     circle_idxs = os.listdir(pic_strength_dir)
@@ -153,9 +176,12 @@ def main(args):
         
         # process the image and the text using GPT-4-V
         res_stats_dict = GPT4V_process(config)
-        final_list.append(res_stats_dict)
+
+        final_list[(pic_strength_name,circle_idx) ] = res_stats_dict
         
-  print(f'final_list: {final_list}')
+  final_report(final_list)
+  
+  # print(f'final_list: {final_list}')
   return final_list
 
 

@@ -4,7 +4,12 @@ import torch
 from evaluate import load
 from functools import partial
 
-
+EVALUATE_NAMES = [
+    'edit_dis', 
+    'bleu_score', 
+    'Bert_sim'
+    ]
+bertscore = load("bertscore")
 ################# evaluation functions #################
 
 def calculate_edit_distance(text1, text2):
@@ -30,6 +35,7 @@ def calculate_bleu_score(text1, text2):
     bleu_score = sentence_bleu(reference, candidate)
     return bleu_score
 
+
 def calculate_semantic_similarity(text1, text2, model_name = "bert-base-uncased", device = "cpu"):
     # tokenizer = BertTokenizer.from_pretrained(model_name)
     # model = BertModel.from_pretrained(model_name).to(device)
@@ -51,9 +57,12 @@ def calculate_semantic_similarity(text1, text2, model_name = "bert-base-uncased"
     # similarity = torch.cosine_similarity(embeddings1, embeddings2, dim=1).item()
     # return similarity
 
-    bertscore = load("bertscore")
+    
     results = bertscore.compute(predictions=[text1], references=[text2], lang="en", model_type=model_name, device=device)
-    similarity = results['f1'].item()
+    
+    # results = {'precision': [0.3785819411277771], 'recall': [0.5577176809310913], 'f1': [0.4510134160518646], 'hashcode': 'bert-base-uncased_L9_no-idf_version=0.3.12(hug_trans=4.22.1)'}
+    similarity = results['f1'][0]
+
     return similarity
     
 
@@ -66,7 +75,7 @@ def calculate_semantic_similarity(text1, text2, model_name = "bert-base-uncased"
 
 
 
-def evaluate(result_list, ocr, ori_ocr_text, device = "cuda"):
+def evaluate_fun(result_list, ocr, ori_ocr_text, device = "cuda"):
     """
     Evaluate the result_list and the ocr text
     
@@ -80,11 +89,7 @@ def evaluate(result_list, ocr, ori_ocr_text, device = "cuda"):
     """
     
     ################# evaluation table #################
-    EVALUATE_NAMES = [
-    'edit_dis', 
-    'bleu_score', 
-    'Bert_sim'
-    ]
+    
 
     evaluate_functions = [
     partial(calculate_edit_distance),
@@ -122,14 +127,15 @@ def evaluate(result_list, ocr, ori_ocr_text, device = "cuda"):
         rres = evaluate_helper(reason, ori_ocr_text)
         
     # write a form that is not sensitive to the number of evaluation metrics
-    for name in EVALUATE_NAMES:
-        guess_stats_dict[name].append(res[name])
-        reason_stats_dict[name].append(rres[name])
+        for name in EVALUATE_NAMES:
+            guess_stats_dict[name].append(res[name])
+            reason_stats_dict[name].append(rres[name])
         
     # calculate the avg top_3 scores for each guess and reason
     n = 3
     guess_top_n_values_dict, reason_top_n_values_dict = {}, {}
     for name in EVALUATE_NAMES:
+        print(f'guess_stats_dict[{name}] = {guess_stats_dict[name] }')
         if Higher_is_better[name]:
             guess_top_n_values_dict[name] = max(guess_stats_dict[name][:n])
             reason_top_n_values_dict[name] = max(reason_stats_dict[name][:n])

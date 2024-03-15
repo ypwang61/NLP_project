@@ -72,7 +72,7 @@ def draw_ellipses_each(image_path, ellipse_info_list, rec_texts, output_director
         # use regular expression to remove the special characters that is invalid for the file name, like \
         text = re.sub(r'[\\/*?:"<>|]', '', rec_texts[i])
         
-        cv2.imwrite(os.path.join(output_directory, f'{i}_{text}.jpg'), image) # for convenience
+        # cv2.imwrite(os.path.join(output_directory, f'{i}_{text}.jpg'), image) # for convenience
         cv2.imwrite(os.path.join(output_directory, f'{i}.jpg'), image)
         
         # store the original text in i.txt
@@ -226,6 +226,8 @@ if __name__ == '__main__':
     parser.add_argument('--scale', type=float, help='scale to draw the ellipses', default = 1.5)
     parser.add_argument('--min_filter_area_rate', type=float, help='min rate of the total size of image to filter the small bounding boxes', default = 0.0002)
     
+    parser.add_argument('--random_sample_num', type=int, help='random sample number for the circle idx of each draw pictures', default = 5)
+    
     args = parser.parse_args()
     # print the parameters of args in lines
     for arg in vars(args):
@@ -236,8 +238,10 @@ if __name__ == '__main__':
     inferencer = MMOCRInferencer(det='DBNET', rec='SAR', device=args.device)
     
     
+    input_paths = os.listdir(args.input)
+    
     ############## read all the images in the input directory and draw ellipses on them ##############
-    for image_name in os.listdir(args.input):
+    for image_name in input_paths:
         print(f' ================== begin add ellipses to {image_name} ===============')
         image_path = os.path.join(args.input, image_name)
         results = inferencer(image_path, return_vis=False)
@@ -256,6 +260,17 @@ if __name__ == '__main__':
         
         print(f"Final rec_texts = {rec_texts}")
         print(f"Final ellipse_info_list = {ellipse_info_list}, len(ellipse_info_list) = {len(ellipse_info_list)}")
+        
+        # random select some of the ellipse_info_list to draw
+        if len(ellipse_info_list) > args.random_sample_num:
+            idx = np.random.choice(len(ellipse_info_list), args.random_sample_num, replace = False)
+            ellipse_info_list = [ellipse_info_list[i] for i in idx]
+            rec_texts = [rec_texts[i] for i in idx]
+        
+            print(f'Afer random select, len(ellipse_info_list) = {len(ellipse_info_list)}')
+            print(f"Final rec_texts = {rec_texts}")
+            print(f"Final ellipse_info_list = {ellipse_info_list}, len(ellipse_info_list) = {len(ellipse_info_list)}")
+        
         # create a directory for each image
         directory = os.path.join(args.output, image_name.split('.')[0])
         
@@ -278,7 +293,7 @@ if __name__ == '__main__':
         
         if flag == 0:
             for add_image_name in os.listdir(args.add_input):
-                if image_name.split('.')[0] == add_image_name : # 
+                if image_name.split('.')[0] == add_image_name.split('_')[0]:
                     print(f' ================== begin add ellipses to {add_image_name} ===============')
                     
                     
