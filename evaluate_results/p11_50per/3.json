@@ -22,18 +22,39 @@
     "top_1_reason": 35,
     "top_3_reason": 35
   },
-  "bleu_score": {
-    "ocr": 0,
-    "top_1_guess": 8.121328445417258e-155,
-    "top_3_guess": 8.751273976943354e-78,
-    "top_1_reason": 0,
-    "top_3_reason": 0
-  },
   "Bert_sim": {
     "ocr": 0.4283916652202606,
     "top_1_guess": 0.5873138308525085,
     "top_3_guess": 0.6436548233032227,
     "top_1_reason": 0.3726217448711395,
     "top_3_reason": 0.3726217448711395
+  },
+  "rouge_score@rouge1": {
+    "ocr": 0.0,
+    "top_1_guess": 0.5714285714285715,
+    "top_3_guess": 0.8571428571428571,
+    "top_1_reason": 0.0,
+    "top_3_reason": 0.0
+  },
+  "rouge_score@rouge2": {
+    "ocr": 0.0,
+    "top_1_guess": 0.4,
+    "top_3_guess": 0.8,
+    "top_1_reason": 0.0,
+    "top_3_reason": 0.0
+  },
+  "rouge_score@rougeL": {
+    "ocr": 0.0,
+    "top_1_guess": 0.5714285714285715,
+    "top_3_guess": 0.8571428571428571,
+    "top_1_reason": 0.0,
+    "top_3_reason": 0.0
+  },
+  "rouge_score@rougeLsum": {
+    "ocr": 0.0,
+    "top_1_guess": 0.5714285714285715,
+    "top_3_guess": 0.8571428571428571,
+    "top_1_reason": 0.0,
+    "top_3_reason": 0.0
   }
 }

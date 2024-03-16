@@ -37,7 +37,7 @@ def read_results(args):
             
             
         
-def re_evaluate(pre_fianl_list):
+def re_evaluate(pre_fianl_list, need_rewrite = False):
   """
   re-evaluate the results
   """
@@ -51,8 +51,13 @@ def re_evaluate(pre_fianl_list):
     print(f'=========================== re-evaluate results =============================')
     print(f'pic_strength_name: {pic_strength_name}, idx: {idx}')
     
-    final_list[(pic_strength_name, idx)] = res_stats_dict
+    if need_rewrite:
+      with open(os.path.join(args.evaluate_path, pic_strength_name, f'{idx}.json'), 'w') as f:
+        json.dump(res_stats_dict, f, indent=2)
+        print(f'write the evaluation results to {os.path.join(args.evaluate_path, pic_strength_name, f"{idx}.json")}')
     
+    final_list[(pic_strength_name, idx)] = res_stats_dict
+
   return final_list, res_keys
     
     
@@ -118,11 +123,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='')
 
     parser.add_argument('--evaluate_path', type=str, default = 'evaluate_results')
+    parser.add_argument('--need_rewrite', type=bool, default = False)
     
     args = parser.parse_args()
     
     final_list = read_results(args)
     
-    final_list, res_keys = re_evaluate(final_list)
+    final_list, res_keys = re_evaluate(final_list, args.need_rewrite)
     
     final_report(final_list, res_keys)
