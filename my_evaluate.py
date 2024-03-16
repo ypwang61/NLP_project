@@ -70,9 +70,14 @@ def calculate_semantic_similarity(text1, text2, model_name = "bert-base-uncased"
     results = bertscore.compute(predictions=[text1], references=[text2], lang="en", model_type=model_name, device=device)
     
     # results = {'precision': [0.3785819411277771], 'recall': [0.5577176809310913], 'f1': [0.4510134160518646], 'hashcode': 'bert-base-uncased_L9_no-idf_version=0.3.12(hug_trans=4.22.1)'}
-    similarity = results['f1'][0]
+    # similarity = results['f1'][0]
+    # return similarity
+    
+    results = {key: value[0] for key, value in results.items()}
+    # remove the hashcode
+    results.pop('hashcode')
 
-    return similarity
+    return results
     
 
 

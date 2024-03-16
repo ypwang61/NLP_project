@@ -15,7 +15,7 @@ topics = topics[:num_topics]
 slides_per_topic = 5
 
 def generate_text(topic):
-    client = OpenAI(api_key='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')
+    client = OpenAI()
     n_keypoints = random.randint(1, 3)
     prompt = f"Your job is to generate a brief PPT presentation outline on {topic}. Your generation should contain exactly one slide, with {n_keypoints} keypoints. \
     Each key point should be concise, followed with a paragraph demonstrating the corresponding details, which should contain at most {length_constraint[n_keypoints - 1]} sentences. \
