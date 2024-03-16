@@ -31,7 +31,7 @@ mim install -e .
 
 And the `bert_score` library
 ```
-pip install evaluate bert_score
+pip install evaluate bert_score rouge_score
 ```
 
 ## 1. Set OpenAI key
