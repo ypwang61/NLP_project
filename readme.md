@@ -29,7 +29,7 @@ cd mmocr
 mim install -e .
 ```
 
-And the `bert_score` library
+And the metrics
 ```
 pip install evaluate bert_score rouge_score
 ```
